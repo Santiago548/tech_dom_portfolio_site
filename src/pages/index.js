@@ -14,3 +14,5 @@ const IndexPage = () => {
   )
 }
 export default IndexPage
+
+// localhost:8000/___graphql
