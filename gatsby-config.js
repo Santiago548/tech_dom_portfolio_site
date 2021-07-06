@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "My Portfolio Site",
+    title: "TECHNOLGYDOM",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -14,5 +14,6 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
+    'gatsby-plugin-mdx',
   ],
 };

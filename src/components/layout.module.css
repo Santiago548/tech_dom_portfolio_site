@@ -1,6 +1,6 @@
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 1000px;
     font-family: sans-serif;
   }
 
@@ -9,6 +9,7 @@
   }
   .nav-links {
     background-color: black;
+    width: 100%;
     display: flex;
     list-style: none;
     padding-left: 2px;
@@ -27,7 +28,65 @@
     font-weight: 700;
   }
 
-  .project-image {
+  .project-container {
+    display: inline-grid;
     width: 100%;
-    height: auto;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-rows: auto; 
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-areas: 
+    ". npc . story ."
+    ". npclink . storylink ." 
+    ". character . . . "
+    ". characterlink . . ." 
+    ;
+  }
+  
+    .npc-image {
+      grid-area: npc;
+      width: 400px;
+      height: 200px;
+      justify-self: center;
+      object-fit: scale-down;
+    }
+  
+  .character-image {
+    grid-area: character;
+    width: 400px;
+    height: 100%;
+    justify-self: center;
+    object-fit: scale-down;
+  }
+
+  .story-image {
+    grid-area: story;
+    justify-self: center;
+    width: 400px;
+    height: 200px;
+    object-fit: scale-down;
+  }
+
+  .npc-link {
+    grid-area: npclink;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .character-link {
+    grid-area: characterlink;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .story-link {
+    grid-area: storylink;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  hr {
+    height: 10px;
+    width: 100%;
+    background-color: black;
   }
