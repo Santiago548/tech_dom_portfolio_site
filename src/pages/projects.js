@@ -19,11 +19,11 @@ const ProjectPage = () => {
     <Layout pageTitle="Project Page">
       <p>All my projects will be here.</p>
       <div className={projectContainer}>
+        <fieldset className={npcImage}>  
         <StaticImage
-          className={npcImage}
           alt="npc logo"
-          src="../images/npclogo.png"
-        />
+          src="../images/npc_logo.png"
+          />
         <fieldset className={npcLink}>
           <Link to="https://github.com/Santiago548/NPC_Generator">
             <fieldset>GITHUB</fieldset>
@@ -31,16 +31,17 @@ const ProjectPage = () => {
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
             className={npcLink}
-          >
+            >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
         </fieldset>
+            </fieldset>
         {/* character manager links */}
+        <fieldset className={characterImage}>
         <StaticImage
-          className={characterImage}
-          alt="npc logo"
-          src="../images/CHARACTER_MANAGER_LOGO.png"
-        />
+          alt="character manager logo"
+          src="../images/character_manager.png"
+          />
         <fieldset className={characterLink}>
           <Link href="https://github.com/Santiago548/DND_character_manager">
             <fieldset>GITHUB</fieldset>
@@ -48,46 +49,49 @@ const ProjectPage = () => {
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
             className={npcLink}
-          >
+            >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
         </fieldset>
+            </fieldset>
         {/* NPC generator links */}
+        <fieldset className={storyImage}> 
         <StaticImage
-          className={storyImage}
-          alt="npc logo"
+          alt="story generator logo"
           src="../images/character_generator.png"
-        />
+          />
         <fieldset className={storyLink}>
           <Link
             to="https://github.com/Santiago548/Character_APP"
-          >
+            >
             <fieldset>GITHUB</fieldset>
           </Link>
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
-          >
+            >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
         </fieldset>
+            </fieldset>
          {/*  campaign manager links */}
+         <fieldset className={managerImage}>  
          <StaticImage
-          className={managerImage}
-          alt="npc logo"
-          src="../images/character_generator.png"
-        />
+          alt="campaign manager logo"
+          src="../images/campaign_manager.png"
+          />
         <fieldset className={managerLink}>
           <Link
             to="https://github.com/Santiago548/gm_campaign_app"
-          >
+            >
             <fieldset>GITHUB</fieldset>
           </Link>
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
-          >
+            >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
         </fieldset>
+            </fieldset>
       </div>
     </Layout>
   );
