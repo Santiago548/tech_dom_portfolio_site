@@ -1,12 +1,20 @@
+@font-face {
+  font-family: "DisketMono";
+  src: local("DisketMono"),
+   url("../fonts/Disket-Mono-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
+
 .container {
     margin: auto;
     max-width: 1000px;
-    font-family: sans-serif;
+    font-family: 'DisketMono', monospace;
   }
 
   .heading {
     color: rebeccapurple;
   }
+
   .nav-links {
     background-color: black;
     width: 100%;
@@ -20,6 +28,7 @@
   }
   .nav-link-text {
     color: rgb(255, 255, 255);
+    text-decoration: none;
   }
 
   .site-title {
@@ -42,7 +51,6 @@
     ". characterlink . . ." 
     ;
   }
-  
     .npc-image {
       grid-area: npc;
       width: 400px;
@@ -85,8 +93,9 @@
     color: rgb(0, 0, 0);
   }
 
-  hr {
-    height: 10px;
-    width: 100%;
-    background-color: black;
+  .about-me {
+    justify-items: center;
+    max-width: 800px;
+    color: rgb(3, 3, 3);
+    margin:auto;
   }

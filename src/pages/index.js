@@ -1,6 +1,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import '../fonts/Disket-Mono-Bold.ttf'
+import '../fonts/Disket-Mono-Regular.ttf'
 
 const IndexPage = () => {
   return (
