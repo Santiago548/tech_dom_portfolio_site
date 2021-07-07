@@ -10,6 +10,8 @@ import {
   npcLink,
   characterLink,
   storyLink,
+  managerImage,
+  managerLink,
 } from "../components/layout.module.css";
 
 const ProjectPage = () => {
@@ -59,6 +61,24 @@ const ProjectPage = () => {
         <fieldset className={storyLink}>
           <Link
             to="https://github.com/Santiago548/Character_APP"
+          >
+            <fieldset>GITHUB</fieldset>
+          </Link>
+          <Link
+            to="https://github.com/Santiago548/NPC_Generator"
+          >
+            <fieldset>DEMO need to add video</fieldset>
+          </Link>
+        </fieldset>
+         {/*  campaign manager links */}
+         <StaticImage
+          className={managerImage}
+          alt="npc logo"
+          src="../images/character_generator.png"
+        />
+        <fieldset className={managerLink}>
+          <Link
+            to="https://github.com/Santiago548/gm_campaign_app"
           >
             <fieldset>GITHUB</fieldset>
           </Link>

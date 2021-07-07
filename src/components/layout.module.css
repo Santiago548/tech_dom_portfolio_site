@@ -47,8 +47,8 @@
     grid-template-areas: 
     ". npc . story ."
     ". npclink . storylink ." 
-    ". character . . . "
-    ". characterlink . . ." 
+    ". character . . manager "
+    ". characterlink . . managerLink" 
     ;
   }
     .npc-image {
@@ -75,6 +75,14 @@
     object-fit: scale-down;
   }
 
+  .manager-image {
+    grid-area: npc;
+    width: 400px;
+    height: 200px;
+    justify-self: center;
+    object-fit: scale-down;
+  }
+
   .npc-link {
     grid-area: npclink;
     text-align: center;
@@ -88,6 +96,12 @@
   }
 
   .story-link {
+    grid-area: storylink;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .manager-link {
     grid-area: storylink;
     text-align: center;
     color: rgb(0, 0, 0);
