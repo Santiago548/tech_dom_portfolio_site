@@ -175,6 +175,7 @@
 .skill-description {
   padding-top: 20px;
   width: 50%;
+  background-color: rgb(204, 33, 33);
 }
 
 .fieldset-skill1 {
@@ -183,8 +184,8 @@
   padding: 20px;
   float: left;
   border-style: none;
-  text-align: center;
 }
+
 .fieldset-skill2 {
   margin-right: 40px;
   max-width: 400px;
@@ -195,7 +196,6 @@
 }
 
 .skill-image {
-  text-align: center;
   padding: 10px;
   border-radius: 20px;
   margin: auto;

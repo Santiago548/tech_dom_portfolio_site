@@ -25,7 +25,9 @@ const SkillsPage = () => {
               src="../images/ruby_logo.png"
             />
             <br />
-            <p classname={skillDescription}>this is the ruby description</p>
+            <fieldset classname={skillDescription}>   
+            <p>this is the ruby description</p>
+            </fieldset>
           </fieldset>
 
           <fieldset className={fieldsetSkill2}>
@@ -37,13 +39,22 @@ const SkillsPage = () => {
               src="../images/rails_logo.png"
             />
             <br />
-            <p classname={skillDescription}>this is the rails description</p>
+            <fieldset classname={skillDescription}>
+            <p>
+              is a model–view–controller (MVC) framework, providing default
+              structures for a database, a web service, and web pages. It
+              encourages and facilitates the use of web standards such as JSON
+              or XML for data transfer and HTML, CSS and JavaScript for user
+              interfacing. which allows for fast development and deployment of
+              full web applications{" "}
+            </p>
+            </fieldset>
           </fieldset>
           <br />
         </fieldset>
         <br />
-          {/* row 3 */}
-          <fieldset>
+        {/* row 3 */}
+        <fieldset>
           <h1 className={skillTitle}>SINATRA</h1>
           <br />
           <StaticImage
@@ -51,7 +62,13 @@ const SkillsPage = () => {
             alt="Sinatra lgoo"
             src="../images/sinatra_logo.png"
           />
-          <p classname={skillDescription}>this is the Sinatra description</p>
+          <p classname={skillDescription}>
+            Sinatra is a Domain Specific Language implemented in Ruby that's
+            used for writing web applications. Created by Blake Mizerany (Links
+            to an external site.), Sinatra is Rack-based, which means it can fit
+            into any Rack-based application stack, including Rails. It's used by
+            companies such as Apple, BBC, GitHub, LinkedIn, and more.
+          </p>
         </fieldset>
 
         <br />
@@ -94,6 +111,14 @@ const SkillsPage = () => {
           />
           <br />
           <p classname={skillDescription}>this is the JavaScript description</p>
+          <ul>
+            <li>
+              Deliver quality code by applying the best development practices
+            </li>
+            <li>Object Oriented JavaScript</li>
+            <li>Design, develop, and maintain user interfaces</li>
+            <li>Document Object Model (DOM) manipulation</li>
+          </ul>
           <br />
         </fieldset>
         <br />
@@ -107,7 +132,11 @@ const SkillsPage = () => {
               src="../images/react_logo.png"
             />
             <br />
-            <p classname={skillDescription}>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”. React has a few different kinds of components, but we'll start with React.Component subclasses: class ShoppingList extends React.</p>
+            <p classname={skillDescription}>
+              React is a declarative, efficient, and flexible JavaScript library
+              for building user interfaces. It lets me compose complex UIs from
+              small and isolated pieces of code called “components”.
+            </p>
           </fieldset>
           <fieldset className={fieldsetSkill2}>
             <h1 className={skillTitle}>REDUX</h1>
@@ -117,7 +146,13 @@ const SkillsPage = () => {
               src="../images/redux_logo.png"
             />
             <br />
-            <p classname={skillDescription}>is a pattern and library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.</p>
+            <p classname={skillDescription}>
+              is a pattern and library for managing and updating application
+              state, using events called "actions". It serves as a centralized
+              store for state that needs to be used across your entire
+              application, with rules ensuring that the state can only be
+              updated in a predictable fashion.
+            </p>
           </fieldset>
           <br />
         </fieldset>
