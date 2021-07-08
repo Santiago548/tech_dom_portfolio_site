@@ -173,12 +173,13 @@
 }
 
 .skill-description {
-  padding: 0%;
-  max-width: 30%;
+  padding-top: 20px;
+  width: 50%;
 }
 
 .fieldset-skill1 {
   margin-left: 40px;
+  max-width: 400px;
   padding: 20px;
   float: left;
   border-style: none;
@@ -186,6 +187,7 @@
 }
 .fieldset-skill2 {
   margin-right: 40px;
+  max-width: 400px;
   padding: 20px;
   float: right;
   border-style: none;
@@ -197,6 +199,6 @@
   padding: 10px;
   border-radius: 20px;
   margin: auto;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
