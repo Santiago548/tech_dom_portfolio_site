@@ -158,3 +158,45 @@
   display:inline-block;
   border-style: none;
 }
+
+.skill-container {
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  font-family: "DisketMono", monospace;
+}
+
+.skill-title {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.skill-description {
+  padding: 0%;
+  max-width: 30%;
+}
+
+.fieldset-skill1 {
+  margin-left: 40px;
+  padding: 20px;
+  float: left;
+  border-style: none;
+  text-align: center;
+}
+.fieldset-skill2 {
+  margin-right: 40px;
+  padding: 20px;
+  float: right;
+  border-style: none;
+  text-align: center;
+}
+
+.skill-image {
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
