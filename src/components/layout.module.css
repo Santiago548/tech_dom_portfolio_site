@@ -174,8 +174,8 @@
 
 .skill-description {
   padding-top: 20px;
-  width: 50%;
-  background-color: rgb(204, 33, 33);
+  padding: 20px;
+  margin: auto;
 }
 
 .fieldset-skill1 {
@@ -201,4 +201,12 @@
   margin: auto;
   width: 60px;
   height: 60px;
+}
+
+.skill-bullet {
+  padding: 20px;
+  max-width: 50%;
+  border-style: none;
+  text-align: justify;
+  margin: auto;
 }

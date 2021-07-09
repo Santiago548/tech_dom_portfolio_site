@@ -8,6 +8,7 @@ import {
   skillImage,
   fieldsetSkill1,
   fieldsetSkill2,
+  skillBullet,
 } from "../components/layout.module.css";
 
 const SkillsPage = () => {
@@ -25,9 +26,9 @@ const SkillsPage = () => {
               src="../images/ruby_logo.png"
             />
             <br />
-            <fieldset classname={skillDescription}>   
-            <p>this is the ruby description</p>
-            </fieldset>
+              
+            <p className={skillDescription}>I chose Ruby as my first coding language because it is simple, complete, extensible, and portable. In learning Ruby, I developed an understanding of how to learn coding and programming through it Object-orientation capabilities.</p>
+            
           </fieldset>
 
           <fieldset className={fieldsetSkill2}>
@@ -39,16 +40,11 @@ const SkillsPage = () => {
               src="../images/rails_logo.png"
             />
             <br />
-            <fieldset classname={skillDescription}>
-            <p>
-              is a model–view–controller (MVC) framework, providing default
-              structures for a database, a web service, and web pages. It
-              encourages and facilitates the use of web standards such as JSON
-              or XML for data transfer and HTML, CSS and JavaScript for user
-              interfacing. which allows for fast development and deployment of
-              full web applications{" "}
+            
+            <p className={skillDescription}>
+            Ruby on Rails offers a model-view-controller (MVC) framework, which includes default structures, a web service, and web pages. Using web standards for data transfer, such as JSON or XML, is encouraged by the software. As well as HTML, CSS, and JavaScript for user interaction. As a Ruby on Rails developer, I can easily build and deploy fully functioning web applications
             </p>
-            </fieldset>
+            
           </fieldset>
           <br />
         </fieldset>
@@ -62,7 +58,7 @@ const SkillsPage = () => {
             alt="Sinatra lgoo"
             src="../images/sinatra_logo.png"
           />
-          <p classname={skillDescription}>
+          <p className={skillDescription}>
             Sinatra is a Domain Specific Language implemented in Ruby that's
             used for writing web applications. Created by Blake Mizerany (Links
             to an external site.), Sinatra is Rack-based, which means it can fit
@@ -83,7 +79,7 @@ const SkillsPage = () => {
               src="../images/html_logo.png"
             />
             <br />
-            <p classname={skillDescription}>this is the html description</p>
+            <p className={skillDescription}>HTML stands for Hypertext Markup Language. HTML is the most commonly used language to write web pages. This language is how web pages are linked together, utilizing other languages to style and/or create functionality on the page.</p>
           </fieldset>
 
           <fieldset className={fieldsetSkill2}>
@@ -95,7 +91,7 @@ const SkillsPage = () => {
               src="../images/css_logo.png"
             />
             <br />
-            <p classname={skillDescription}>this is the css description</p>
+            <p className={skillDescription}>CSS is the language used to style HTML pages. I fully customize my applications and web pages using CSS to make the UI look and operate for the best user-end experience.</p>
           </fieldset>
           <br />
         </fieldset>
@@ -110,7 +106,8 @@ const SkillsPage = () => {
             src="../images/js_logo.png"
           />
           <br />
-          <p classname={skillDescription}>this is the JavaScript description</p>
+          <p className={skillDescription}>this is the JavaScript description</p>
+          <fieldset className={skillBullet}>
           <ul>
             <li>
               Deliver quality code by applying the best development practices
@@ -119,6 +116,7 @@ const SkillsPage = () => {
             <li>Design, develop, and maintain user interfaces</li>
             <li>Document Object Model (DOM) manipulation</li>
           </ul>
+          </fieldset>
           <br />
         </fieldset>
         <br />
@@ -132,8 +130,8 @@ const SkillsPage = () => {
               src="../images/react_logo.png"
             />
             <br />
-            <p classname={skillDescription}>
-              React is a declarative, efficient, and flexible JavaScript library
+            <p className={skillDescription}>
+              React is a declarative, efficient, and flexible JavaScript library developed by FaceBook. I utilize it 
               for building user interfaces. It lets me compose complex UIs from
               small and isolated pieces of code called “components”.
             </p>
@@ -146,7 +144,7 @@ const SkillsPage = () => {
               src="../images/redux_logo.png"
             />
             <br />
-            <p classname={skillDescription}>
+            <p className={skillDescription}>
               is a pattern and library for managing and updating application
               state, using events called "actions". It serves as a centralized
               store for state that needs to be used across your entire
