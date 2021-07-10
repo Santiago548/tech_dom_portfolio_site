@@ -159,6 +159,8 @@
   border-style: none;
 }
 
+/* skill page css */
+
 .skill-container {
   text-align: center;
   margin: auto;
@@ -176,20 +178,20 @@
   padding-top: 20px;
   padding: 20px;
   margin: auto;
+  text-align: center;
 }
 
 .fieldset-skill1 {
-  margin-left: 40px;
+  /* margin-left: 40px; */
   max-width: 400px;
-  padding: 20px;
   float: left;
   border-style: none;
+  text-align: center;
 }
 
 .fieldset-skill2 {
-  margin-right: 40px;
+  /* margin-right: 40px; */
   max-width: 400px;
-  padding: 20px;
   float: right;
   border-style: none;
   text-align: center;
@@ -199,13 +201,13 @@
   padding: 10px;
   border-radius: 20px;
   margin: auto;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
 .skill-bullet {
   padding: 20px;
-  max-width: 50%;
+  max-width: 60%;
   border-style: none;
   text-align: justify;
   margin: auto;

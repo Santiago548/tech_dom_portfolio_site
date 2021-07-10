@@ -26,9 +26,13 @@ const SkillsPage = () => {
               src="../images/ruby_logo.png"
             />
             <br />
-              
-            <p className={skillDescription}>I chose Ruby as my first coding language because it is simple, complete, extensible, and portable. In learning Ruby, I developed an understanding of how to learn coding and programming through it Object-orientation capabilities.</p>
-            
+
+            <p className={skillDescription}>
+              Ruby was my first coding language because it is simple, complete,
+              extensible, and portable. In learning Ruby, I developed an
+              understanding of how to learn coding and programming through its
+              Object-orientation capabilities.
+            </p>
           </fieldset>
 
           <fieldset className={fieldsetSkill2}>
@@ -40,11 +44,15 @@ const SkillsPage = () => {
               src="../images/rails_logo.png"
             />
             <br />
-            
+
             <p className={skillDescription}>
-            Ruby on Rails offers a model-view-controller (MVC) framework, which includes default structures, a web service, and web pages. Using web standards for data transfer, such as JSON or XML, is encouraged by the software. As well as HTML, CSS, and JavaScript for user interaction. As a Ruby on Rails developer, I can easily build and deploy fully functioning web applications
+              Ruby on Rails offers a model-view-controller (MVC) framework,
+              which includes default structures, a web service, and web pages.
+              Using web standards for data transfer, such as JSON or XML, is
+              encouraged by the software. As well as HTML, CSS, and JavaScript
+              for user interaction. As a Ruby on Rails developer, I can easily
+              build and deploy fully functioning web applications
             </p>
-            
           </fieldset>
           <br />
         </fieldset>
@@ -79,7 +87,11 @@ const SkillsPage = () => {
               src="../images/html_logo.png"
             />
             <br />
-            <p className={skillDescription}>HTML stands for Hypertext Markup Language. HTML is the most commonly used language to write web pages. This language is how web pages are linked together, utilizing other languages to style and/or create functionality on the page.</p>
+            <p className={skillDescription}>
+              is the markup language that we use to structure and give meaning
+              to our web content, for example defining paragraphs, headings, and
+              data tables, or embedding images and videos in the page.
+            </p>
           </fieldset>
 
           <fieldset className={fieldsetSkill2}>
@@ -91,7 +103,13 @@ const SkillsPage = () => {
               src="../images/css_logo.png"
             />
             <br />
-            <p className={skillDescription}>CSS is the language used to style HTML pages. I fully customize my applications and web pages using CSS to make the UI look and operate for the best user-end experience.</p>
+            <p className={skillDescription}>
+              is a language of style rules that we use to apply styling to our
+              HTML content, for example setting background colors and fonts, and
+              laying out our content in multiple columns. I fully customize my applications and
+              web pages using CSS to make the UI look and operate for the best
+              user-end experience.
+            </p>
           </fieldset>
           <br />
         </fieldset>
@@ -106,16 +124,21 @@ const SkillsPage = () => {
             src="../images/js_logo.png"
           />
           <br />
-          <p className={skillDescription}>this is the JavaScript description</p>
+          <p className={skillDescription}>
+            is a scripting language that enables me to create and control dynamically
+            updating content, control multimedia, animate images, and pretty
+            much everything else. (Okay, not everything, but it is amazing what
+            you can achieve with a few lines of JavaScript code.)
+          </p>
           <fieldset className={skillBullet}>
-          <ul>
-            <li>
-              Deliver quality code by applying the best development practices
-            </li>
-            <li>Object Oriented JavaScript</li>
-            <li>Design, develop, and maintain user interfaces</li>
-            <li>Document Object Model (DOM) manipulation</li>
-          </ul>
+            <ul>
+              <li>
+                Deliver quality code by applying the best development practices
+              </li>
+              <li>Object Oriented JavaScript</li>
+              <li>Design, develop, and maintain user interfaces</li>
+              <li>Document Object Model (DOM) manipulation</li>
+            </ul>
           </fieldset>
           <br />
         </fieldset>
@@ -131,9 +154,10 @@ const SkillsPage = () => {
             />
             <br />
             <p className={skillDescription}>
-              React is a declarative, efficient, and flexible JavaScript library developed by FaceBook. I utilize it 
-              for building user interfaces. It lets me compose complex UIs from
-              small and isolated pieces of code called “components”.
+              React is a declarative, efficient, and flexible JavaScript library
+              developed by FaceBook. I utilize it for building user interfaces.
+              It lets me compose complex UIs from small and isolated pieces of
+              code called “components”.
             </p>
           </fieldset>
           <fieldset className={fieldsetSkill2}>
