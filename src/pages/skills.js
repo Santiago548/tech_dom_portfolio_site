@@ -8,7 +8,9 @@ import {
   skillImage,
   fieldsetSkill1,
   fieldsetSkill2,
-  skillBullet,
+  skillFieldsetContainer,
+  fieldsetSkill3,
+  projectNoFieldset
 } from "../components/layout.module.css";
 
 const SkillsPage = () => {
@@ -16,7 +18,7 @@ const SkillsPage = () => {
     <Layout pageTitle="Skills">
       <div className={skillContainer}>
         {/* row 1 */}
-        <fieldset>
+        <fieldset className={skillFieldsetContainer}>
           <fieldset className={fieldsetSkill1}>
             <h1 className={skillTitle}>RUBY</h1>
 
@@ -57,27 +59,29 @@ const SkillsPage = () => {
           <br />
         </fieldset>
         <br />
-        {/* row 3 */}
-        <fieldset>
-          <h1 className={skillTitle}>SINATRA</h1>
-          <br />
-          <StaticImage
-            className={skillImage}
-            alt="Sinatra lgoo"
-            src="../images/sinatra_logo.png"
-          />
-          <p className={skillDescription}>
-            Sinatra is a Domain Specific Language implemented in Ruby that's
-            used for writing web applications. Created by Blake Mizerany (Links
-            to an external site.), Sinatra is Rack-based, which means it can fit
-            into any Rack-based application stack, including Rails. It's used by
-            companies such as Apple, BBC, GitHub, LinkedIn, and more.
-          </p>
+        {/* row 2 */}
+        <fieldset className={projectNoFieldset}>
+          <fieldset className={fieldsetSkill3}>
+            <h1 className={skillTitle}>SINATRA</h1>
+            <br />
+            <StaticImage
+              className={skillImage}
+              alt="Sinatra lgoo"
+              src="../images/sinatra_logo.png"
+            />
+            <p className={skillDescription}>
+              Sinatra is a Domain Specific Language implemented in Ruby that's
+              used for writing web applications. Created by Blake Mizerany
+              (Links to an external site.), Sinatra is Rack-based, which means
+              it can fit into any Rack-based application stack, including Rails.
+              It's used by companies such as Apple, BBC, GitHub, LinkedIn, and
+              more.
+            </p>
+          </fieldset>
         </fieldset>
-
         <br />
         {/* row 3 */}
-        <fieldset>
+        <fieldset className={skillFieldsetContainer}>
           <fieldset className={fieldsetSkill1}>
             <h1 className={skillTitle}>HTML</h1>
             <br />
@@ -106,45 +110,37 @@ const SkillsPage = () => {
             <p className={skillDescription}>
               is a language of style rules that we use to apply styling to our
               HTML content, for example setting background colors and fonts, and
-              laying out our content in multiple columns. I fully customize my applications and
-              web pages using CSS to make the UI look and operate for the best
-              user-end experience.
+              laying out our content in multiple columns. I fully customize my
+              applications and web pages using CSS to make the UI look and
+              operate for the best user-end experience.
             </p>
           </fieldset>
           <br />
         </fieldset>
         <br />
         {/* row 4 */}
-        <fieldset>
+        <fieldset className={projectNoFieldset}>
+        <fieldset className={fieldsetSkill3}>
           <h1 className={skillTitle}>JAVASCRIPT</h1>
           <br />
           <StaticImage
             className={skillImage}
             alt="JavaScript Logo"
             src="../images/js_logo.png"
-          />
+            />
           <br />
           <p className={skillDescription}>
-            is a scripting language that enables me to create and control dynamically
-            updating content, control multimedia, animate images, and pretty
-            much everything else. (Okay, not everything, but it is amazing what
-            you can achieve with a few lines of JavaScript code.)
+            is a scripting language that enables me to create and control
+            dynamically updating content, control multimedia, animate images,
+            and pretty much everything else. (Okay, not everything, but it is
+            amazing what you can achieve with a few lines of JavaScript code.)
           </p>
-          <fieldset className={skillBullet}>
-            <ul>
-              <li>
-                Deliver quality code by applying the best development practices
-              </li>
-              <li>Object Oriented JavaScript</li>
-              <li>Design, develop, and maintain user interfaces</li>
-              <li>Document Object Model (DOM) manipulation</li>
-            </ul>
-          </fieldset>
           <br />
         </fieldset>
+            </fieldset>
         <br />
         {/* row 4 */}
-        <fieldset>
+        <fieldset className={skillFieldsetContainer}>
           <fieldset className={fieldsetSkill1}>
             <h1 className={skillTitle}>REACT</h1>
             <StaticImage
