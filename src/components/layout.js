@@ -49,11 +49,11 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
       <p className={siteTitle}>{data.site.siteMetadata.title}</p>
-      <nav>
-      </nav>
       <h1 className={heading}>{pageTitle}</h1>
       {children}
     </main>
   )
 }
 export default Layout
+
+

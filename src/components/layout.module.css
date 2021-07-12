@@ -5,11 +5,17 @@
   font-weight: bold;
 }
 
+body {
+  background-color: #232c33;
+}
+
 .container {
   text-align: center;
   margin: auto;
   max-width: 1000px;
   font-family: "DisketMono", monospace;
+  background: #232c33;
+  color: #fff;
 }
 
 .heading {
@@ -103,35 +109,79 @@
   object-fit: scale-down;
   object-position: center;
 }
+.project-no-fieldset {
+  border: none;
+}
 
 .npc-link {
   grid-area: npclink;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #fff;
+}
+.npc-link:hover {
+  grid-area: npclink;
+  text-align: center;
+  color: #0091ff;
+}
+.npc-link:active {
+  grid-area: npclink;
+  text-align: center;
+  color: #B87333;
 }
 
 .character-link {
   grid-area: characterlink;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #fff;
+}
+.character-link:hover {
+  grid-area: characterlink;
+  text-align: center;
+  color: #0091ff;
+}
+.character-link:active {
+  grid-area: characterlink;
+  text-align: center;
+  color: #B87333;
 }
 
 .story-link {
   grid-area: storylink;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #fff;
+}
+.story-link:hover {
+  grid-area: storylink;
+  text-align: center;
+  color: #0091ff;
+}
+.story-link:active {
+  grid-area: storylink;
+  text-align: center;
+  color: #B87333;
 }
 
 .manager-link {
   grid-area: managerlink;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
+.manager-link:hover {
+  grid-area: managerlink;
+  text-align: center;
+  color: #0091ff;
+}
+.manager-link:active {
+  grid-area: managerlink;
+  text-align: center;
+  color: #B87333;
+}
+
 
 .about-me {
   justify-items: center;
   max-width: 800px;
-  color: rgb(3, 3, 3);
+  color: #fff;
   margin: auto;
 }
 
@@ -184,17 +234,21 @@
 .fieldset-skill1 {
   /* margin-left: 40px; */
   max-width: 400px;
+  height: 400px;
   float: left;
   border-style: none;
   text-align: center;
+  background-color: #2b343b;
 }
 
 .fieldset-skill2 {
   /* margin-right: 40px; */
   max-width: 400px;
+  height: 400px;
   float: right;
   border-style: none;
   text-align: center;
+  background-color: #2b343b
 }
 
 .skill-image {
@@ -212,3 +266,5 @@
   text-align: justify;
   margin: auto;
 }
+
+/* navigation test */

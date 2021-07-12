@@ -12,6 +12,7 @@ import {
   storyLink,
   managerImage,
   managerLink,
+  projectNoFieldset
 } from "../components/layout.module.css";
 
 const ProjectPage = () => {
@@ -24,8 +25,10 @@ const ProjectPage = () => {
           alt="npc logo"
           src="../images/npc_logo.png"
           />
-        <fieldset className={npcLink}>
-          <Link to="https://github.com/Santiago548/NPC_Generator">
+        <fieldset className={projectNoFieldset}>
+          <Link to="https://github.com/Santiago548/NPC_Generator"
+            className={npcLink}
+          >
             <fieldset>GITHUB</fieldset>
           </Link>
           <Link
@@ -42,13 +45,15 @@ const ProjectPage = () => {
           alt="character manager logo"
           src="../images/character_manager.png"
           />
-        <fieldset className={characterLink}>
-          <Link href="https://github.com/Santiago548/DND_character_manager">
+        <fieldset className={projectNoFieldset}>
+          <Link href="https://github.com/Santiago548/DND_character_manager"
+            className={characterLink}
+          >
             <fieldset>GITHUB</fieldset>
           </Link>
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
-            className={npcLink}
+            className={characterLink}
             >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
@@ -60,14 +65,16 @@ const ProjectPage = () => {
           alt="story generator logo"
           src="../images/character_generator.png"
           />
-        <fieldset className={storyLink}>
+        <fieldset className={projectNoFieldset}>
           <Link
             to="https://github.com/Santiago548/Character_APP"
+            className={storyLink}
             >
             <fieldset>GITHUB</fieldset>
           </Link>
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
+            className={storyLink}
             >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
@@ -79,14 +86,16 @@ const ProjectPage = () => {
           alt="campaign manager logo"
           src="../images/campaign_manager.png"
           />
-        <fieldset className={managerLink}>
+        <fieldset className={projectNoFieldset}>
           <Link
             to="https://github.com/Santiago548/gm_campaign_app"
+            className={managerLink}
             >
             <fieldset>GITHUB</fieldset>
           </Link>
           <Link
             to="https://github.com/Santiago548/NPC_Generator"
+            className={managerLink}
             >
             <fieldset>DEMO need to add video</fieldset>
           </Link>
