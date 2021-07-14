@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
+import ContactPage from "./contact";
 import { StaticImage } from "gatsby-plugin-image";
 import {
   skillTitle,
@@ -10,8 +11,6 @@ import {
   fieldsetSkill1,
   fieldsetSkill2,
   skillFieldsetContainer,
-  fieldsetSkill3,
-  projectNoFieldset,
   fieldsetWebContainer,
   fieldsetProgrammingContainer
 } from "../components/layout.module.css";
@@ -181,6 +180,8 @@ const SkillsPage = () => {
         </fieldset>
         </fieldset>
       </div>
+      <ContactPage />
+      <br />
       <Footer />
     </Layout>
   );

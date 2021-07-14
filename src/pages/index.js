@@ -15,18 +15,17 @@ const IndexPage = () => {
   return (
     <div>
       <Layout pageTitle="Home Page">
-        <p className={homeDescrption}>
+        <h4 className={homeDescrption}>
           My name is Dominic and welcome to my site. I'm constantly expanding my
           knowledge as a Full-Stack Web Developer by building applications and
           websites.
-        </p>
+        </h4>
+        <br />
         <StaticImage
           alt="PROFILE PIC"
           className={profilePic}
           src="../images/profile_pic.jpg"
         />
-        <br></br>
-        <h1>Connect With Me</h1>
       <br></br>
       <ContactPage />
       <br />

@@ -18,8 +18,33 @@ body {
   color: #fff;
 }
 
+.site-title {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.page-top {
+  background-color: black;
+  border-bottom: double 6px rebeccapurple;
+}
+
 .heading {
   color: rebeccapurple;
+}
+
+.home-descrption {
+  justify-items: center;
+  max-width: 700px;
+  color: #fff;
+  margin: auto;
+}
+
+.hiiii-descrption {
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -30,9 +55,9 @@ body {
   width: 100%;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 6px;
+  padding-left: 4px;
+  border-top: double 6px rebeccapurple;
 }
-
 
 .profile-pic {
   border-radius: 50%;
@@ -44,21 +69,13 @@ body {
   overflow: hidden;
 }
 
-.home-descrption {
-  margin: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
-}
-
 .nav-links {
   background-color: black;
-  width: 100%;
   display: flex;
   list-style: none;
-  padding-left: 4px;
-  padding-bottom: 10px;
-  padding-top: 4px;
+  padding-left: 10px;
+  /* padding-bottom: 10px;
+  padding-top: 4px; */
 }
 .nav-link-item {
   padding-right: 2rem;
@@ -68,12 +85,11 @@ body {
   text-decoration: none;
   font-size: inherit;
 }
+.nav-link-text:hover {
+    text-align: center;
+    color: #0091ff;
+  }
 
-.site-title {
-  font-size: 3rem;
-  color: rebeccapurple;
-  font-weight: 700;
-}
 /* ABOUT PAGE*/
 
 .about-me {
@@ -163,65 +179,57 @@ body {
 }
 
 .npc-link {
-  grid-area: npclink;
   text-align: center;
   color: #fff;
+  text-decoration: none;
 }
 .npc-link:hover {
-  grid-area: npclink;
   text-align: center;
   color: #0091ff;
 }
 .npc-link:active {
-  grid-area: npclink;
   text-align: center;
   color: #b87333;
 }
 
 .character-link {
-  grid-area: characterlink;
   text-align: center;
   color: #fff;
+  text-decoration: none;
 }
 .character-link:hover {
-  grid-area: characterlink;
   text-align: center;
   color: #0091ff;
 }
 .character-link:active {
-  grid-area: characterlink;
   text-align: center;
   color: #b87333;
 }
 
 .story-link {
-  grid-area: storylink;
   text-align: center;
   color: #fff;
+  text-decoration: none;
 }
 .story-link:hover {
-  grid-area: storylink;
   text-align: center;
   color: #0091ff;
 }
 .story-link:active {
-  grid-area: storylink;
   text-align: center;
   color: #b87333;
 }
 
 .manager-link {
-  grid-area: managerlink;
   text-align: center;
   color: #fff;
+  text-decoration: none;
 }
 .manager-link:hover {
-  grid-area: managerlink;
   text-align: center;
   color: #0091ff;
 }
 .manager-link:active {
-  grid-area: managerlink;
   text-align: center;
   color: #b87333;
 }

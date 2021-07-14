@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
+import ContactPage from "./contact";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import {
@@ -20,8 +21,8 @@ import {
 
 const ProjectPage = () => {
   return (
-    <Layout pageTitle="Project Page">
-      <p>All my projects will be here.</p>
+    <Layout pageTitle="Projects">
+      <p>All projects will be here.</p>
       <div className={projectContainer}>
         <fieldset className={fieldsetProjectContainer}>
           <fieldset className={fieldsetProject1}>
@@ -123,10 +124,10 @@ const ProjectPage = () => {
             />
             <br />
             <p className={projectDescription}>
-              Users can register either as a player or as a Game Master. The
-              player has the option of creating and storing characters, while
-              the Game Master has the option of storing information about
-              campaigns and creating characters for other players.
+              An application were users can register either as a player or as a Game Master. The
+              player has the option of creating and storing D&D characters, while
+              the Game Master has the option of storing information about 
+              campaigns to store player characters in a adventuring party, and creating characters for other players.
             </p>
             <fieldset className={projectNoFieldset}>
               <Link
@@ -147,6 +148,9 @@ const ProjectPage = () => {
           </fieldset>
         </fieldset>
       </div>
+      <br></br>
+      <ContactPage />
+      <br />
       <Footer />
     </Layout>
   );

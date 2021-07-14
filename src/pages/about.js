@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
+import ContactPage from "./contact";
 import { aboutMe } from "../components/layout.module.css";
 
 const AboutPage = () => {
@@ -23,13 +24,8 @@ const AboutPage = () => {
             Dungeons and Dragons campaigns.
           </p>
         </fieldset>
-        <br />
-        <h1>other stuff</h1>
-        <fieldset className={aboutMe}>
-          dfadsfasdf
-          asdfasdfa
-          sdfads
-        </fieldset>
+      <ContactPage />
+      <br />
       </Layout>
       <Footer />
     </div>

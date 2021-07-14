@@ -4,10 +4,14 @@ import {
     socialContainer,
     socialLink,
     fieldsetSocial,
+    container
   } from "../components/layout.module.css";
 
 const ContactPage = () => {
     return (
+        <div className={container}>
+         <br />
+        <h1>Connect With Me</h1>
         <div className={socialContainer}>
         <a href="https://www.linkedin.com/in/dominic-barajas/" target="_blank">
           <fieldset className={fieldsetSocial}>
@@ -41,14 +45,15 @@ const ContactPage = () => {
             <StaticImage className={socialLink} alt="GitHub" src="../images/github_logo.png" />
         </fieldset>
         </a>
-        <a href="https://www.twitch.tv/santiago5480" target="_blank">
+        {/* <a href="https://www.twitch.tv/santiago5480" target="_blank">
         <fieldset className={fieldsetSocial}>
             <StaticImage className={socialLink} alt="twitch" src="../images/twitch_logo.png" />
         </fieldset>
-        </a>
+        </a> */}
         {/* <a href="https://www.linkedin.com/in/dominic-barajas/" target="_blank"> 
             <StaticImage className={socialLink} alt="discord" src="../images/discord_logo.png" />
         </a> */}
+      </div>
       </div>
     );
   };
