@@ -14,7 +14,7 @@ const ContactPage = () => {
             <StaticImage className={socialLink} alt="linkedin" src="../images/linkedin_logo.png" />
           </fieldset>
         </a>
-        <a href="mailto: dominicbarajas548@gmail.com" target="_blank">
+        <a href="mailto:dominicbarajas548@gmail.com" target="_blank">
             <fieldset className={fieldsetSocial}>
                 <StaticImage className={socialLink} alt="gmail" src="../images/gmail_logo.png" />
             </fieldset>
@@ -34,6 +34,11 @@ const ContactPage = () => {
         <a href="https://dev.to/santiago548" target="_blank">
         <fieldset className={fieldsetSocial}>
             <StaticImage className={socialLink} alt="dev" src="../images/dev_logo.png" />
+        </fieldset>
+        </a>
+        <a href="https://github.com/Santiago548" target="_blank">
+        <fieldset className={fieldsetSocial}>
+            <StaticImage className={socialLink} alt="GitHub" src="../images/github_logo.png" />
         </fieldset>
         </a>
         <a href="https://www.twitch.tv/santiago5480" target="_blank">

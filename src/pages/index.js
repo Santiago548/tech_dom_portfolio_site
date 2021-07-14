@@ -17,7 +17,7 @@ const IndexPage = () => {
        src="../images/profile_pic.jpg"
        />
        <br></br>
-    <h1>Contact Me</h1>
+    <h1>Connect With Me</h1>
     </Layout>
     <br></br>
 <ContactPage />

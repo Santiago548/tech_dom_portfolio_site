@@ -10,7 +10,9 @@ import {
   fieldsetSkill2,
   skillFieldsetContainer,
   fieldsetSkill3,
-  projectNoFieldset
+  projectNoFieldset,
+  fieldsetWebContainer,
+  fieldsetProgrammingContainer
 } from "../components/layout.module.css";
 
 const SkillsPage = () => {
@@ -18,6 +20,8 @@ const SkillsPage = () => {
     <Layout pageTitle="Skills">
       <div className={skillContainer}>
         {/* row 1 */}
+        <h1>PROGRAMMING</h1>
+        <fieldset className={fieldsetProgrammingContainer}>
         <fieldset className={skillFieldsetContainer}>
           <fieldset className={fieldsetSkill1}>
             <h1 className={skillTitle}>RUBY</h1>
@@ -48,9 +52,9 @@ const SkillsPage = () => {
             <br />
 
             <p className={skillDescription}>
-              Ruby on Rails offers a model-view-controller (MVC) framework,
+              Ruby on Rails offers a MVC framework,
               which includes default structures, a web service, and web pages.
-              Using web standards for data transfer, such as JSON or XML, is
+              Using web standards such as JSON or XML for data transfer, is
               encouraged by the software. As well as HTML, CSS, and JavaScript
               for user interaction. As a Ruby on Rails developer, I can easily
               build and deploy fully functioning web applications
@@ -60,8 +64,26 @@ const SkillsPage = () => {
         </fieldset>
         <br />
         {/* row 2 */}
-        <fieldset className={projectNoFieldset}>
-          <fieldset className={fieldsetSkill3}>
+        <fieldset className={skillFieldsetContainer}>
+          <fieldset className={fieldsetSkill1}>
+          <h1 className={skillTitle}>JAVASCRIPT</h1>
+          <br />
+          <StaticImage
+            className={skillImage}
+            alt="JavaScript Logo"
+            src="../images/js_logo.png"
+            />
+          <br />
+          <p className={skillDescription}>
+            is a scripting language that enables me to create and control
+            dynamically updating content, control multimedia, animate images,
+            and pretty much everything else. (Okay, not everything, but it is
+            amazing what you can achieve with a few lines of JavaScript code.)
+          </p>
+          <br />
+        </fieldset>
+        
+          <fieldset className={fieldsetSkill2}>
             <h1 className={skillTitle}>SINATRA</h1>
             <br />
             <StaticImage
@@ -79,8 +101,11 @@ const SkillsPage = () => {
             </p>
           </fieldset>
         </fieldset>
+        </fieldset>
         <br />
         {/* row 3 */}
+        <h1>WEB</h1>
+        <fieldset className={fieldsetWebContainer}>
         <fieldset className={skillFieldsetContainer}>
           <fieldset className={fieldsetSkill1}>
             <h1 className={skillTitle}>HTML</h1>
@@ -119,27 +144,6 @@ const SkillsPage = () => {
         </fieldset>
         <br />
         {/* row 4 */}
-        <fieldset className={projectNoFieldset}>
-        <fieldset className={fieldsetSkill3}>
-          <h1 className={skillTitle}>JAVASCRIPT</h1>
-          <br />
-          <StaticImage
-            className={skillImage}
-            alt="JavaScript Logo"
-            src="../images/js_logo.png"
-            />
-          <br />
-          <p className={skillDescription}>
-            is a scripting language that enables me to create and control
-            dynamically updating content, control multimedia, animate images,
-            and pretty much everything else. (Okay, not everything, but it is
-            amazing what you can achieve with a few lines of JavaScript code.)
-          </p>
-          <br />
-        </fieldset>
-            </fieldset>
-        <br />
-        {/* row 4 */}
         <fieldset className={skillFieldsetContainer}>
           <fieldset className={fieldsetSkill1}>
             <h1 className={skillTitle}>REACT</h1>
@@ -173,6 +177,7 @@ const SkillsPage = () => {
             </p>
           </fieldset>
           <br />
+        </fieldset>
         </fieldset>
       </div>
     </Layout>

@@ -77,8 +77,10 @@ body {
   row-gap: 5px;
   grid-template-areas:
     ". npc . manager ."
+    ". npcdescription . managerdescription ."
     ". npclink . managerlink ."
     ". character . story ."
+    ". characterdescription . storydescription ."
     ". characterlink . storylink .";
 }
 
@@ -134,6 +136,7 @@ body {
   border-width: 6px;
   border-style: ridge;
 }
+
 .project-no-fieldset {
   border: none;
 }
@@ -208,12 +211,49 @@ body {
   color: #B87333;
 }
 
+.npc-description {
+  grid-area: npcdescription;
+  width: 100%;
+  height: max-content;
+}
+
+.manager-description {
+  grid-area: managerdescription;
+  width: 100%;
+  
+}
+
+.character-description {
+  grid-area: characterdescription;
+  width: 100%;
+  
+}
+
+.story-description {
+  grid-area: storydescription;
+  width: 100%;
+  
+}
 
 .social-container {
   text-align: center;
   margin: auto;
   max-width: 1000px;
   font-family: "DisketMono", monospace;
+}
+
+.fieldset-web-container {
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: ridge;
+  border-radius: 20px;
+}
+
+.fieldset-programming-container {
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: ridge;
+  border-radius: 20px;
 }
 
 .social-link {
@@ -267,9 +307,9 @@ body {
   border-style: none;
   text-align: center;
   background-color: #2b343b;
-  border-color: rebeccapurple;
+  /* border-color: rebeccapurple;
   border-width: 6px;
-  border-style: ridge;
+  border-style: ridge; */
 }
 
 .fieldset-skill2 {
@@ -280,9 +320,9 @@ body {
   border-style: none;
   text-align: center;
   background-color: #2b343b;
-  border-color: rebeccapurple;
+  /* border-color: rebeccapurple;
   border-width: 6px;
-  border-style: ridge;
+  border-style: ridge; */
 }
 
 .fieldset-skill3 {
