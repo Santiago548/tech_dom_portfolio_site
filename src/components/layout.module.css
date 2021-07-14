@@ -37,8 +37,8 @@ body {
   width: 100%;
   display: flex;
   list-style: none;
-  padding-left: 2px;
-  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-bottom: 10px;
   padding-top: 4px;
 }
 .nav-link-item {
@@ -69,6 +69,70 @@ body {
 
 /* PROJECT PAGE */
 
+.project-container {
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  font-family: "DisketMono", monospace;
+}
+
+.fieldset-project-container {
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.project-title {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.project-description {
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  height: 180px;
+}
+
+.fieldset-project1 {
+  max-width: 400px;
+  height: 600px;
+  float: left;
+  border-style: none;
+  text-align: center;
+  background-color: #2b343b;
+}
+
+.fieldset-project2 {
+  max-width: 400px;
+  height: 600px;
+  float: right;
+  border-style: none;
+  text-align: center;
+  background-color: #2b343b;
+}
+
+.peoject-image {
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-color: rebeccapurple;
+  border-width: 3px;
+  border-style: double;
+}
+
+.peoject-bullet {
+  padding: 20px;
+  max-width: 60%;
+  border-style: none;
+  text-align: justify;
+  margin: auto;
+}
+
 .project-no-fieldset {
   border: none;
 }
@@ -92,7 +156,7 @@ body {
 .npc-link:active {
   grid-area: npclink;
   text-align: center;
-  color: #B87333;
+  color: #b87333;
 }
 
 .character-link {
@@ -108,7 +172,7 @@ body {
 .character-link:active {
   grid-area: characterlink;
   text-align: center;
-  color: #B87333;
+  color: #b87333;
 }
 
 .story-link {
@@ -124,7 +188,7 @@ body {
 .story-link:active {
   grid-area: storylink;
   text-align: center;
-  color: #B87333;
+  color: #b87333;
 }
 
 .manager-link {
@@ -140,52 +204,15 @@ body {
 .manager-link:active {
   grid-area: managerlink;
   text-align: center;
-  color: #B87333;
+  color: #b87333;
 }
 
-/* .npc-description {
-  grid-area: npcdescription;
-  width: 100%;
-  height: max-content;
-}
-
-.manager-description {
-  grid-area: managerdescription;
-  width: 100%;
-  
-}
-
-.character-description {
-  grid-area: characterdescription;
-  width: 100%;
-  
-}
-
-.story-description {
-  grid-area: storydescription;
-  width: 100%;
-  
-} */
-
+/* SOCIAL CONTACT */
 .social-container {
   text-align: center;
   margin: auto;
   max-width: 1000px;
   font-family: "DisketMono", monospace;
-}
-
-.fieldset-web-container {
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
-  border-radius: 20px;
-}
-
-.fieldset-programming-container {
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
-  border-radius: 20px;
 }
 
 .social-link {
@@ -201,7 +228,7 @@ body {
 .fieldset-social {
   padding: 20px;
   max-width: 70px;
-  display:inline-block;
+  display: inline-block;
   border-style: none;
 }
 
@@ -218,6 +245,20 @@ body {
   border: none;
 }
 
+.fieldset-web-container {
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.fieldset-programming-container {
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 20px;
+}
+
 .skill-title {
   text-align: center;
   padding: 10px;
@@ -232,29 +273,21 @@ body {
 }
 
 .fieldset-skill1 {
-  /* margin-left: 40px; */
   max-width: 400px;
   height: 420px;
   float: left;
   border-style: none;
   text-align: center;
   background-color: #2b343b;
-  /* border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge; */
 }
 
 .fieldset-skill2 {
-  /* margin-right: 40px; */
   max-width: 400px;
   height: 420px;
   float: right;
   border-style: none;
   text-align: center;
   background-color: #2b343b;
-  /* border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge; */
 }
 
 .fieldset-skill3 {
@@ -289,76 +322,3 @@ body {
 }
 
 /* project test */
-
-.project-container {
-  text-align: center;
-  margin: auto;
-  max-width: 1000px;
-  font-family: "DisketMono", monospace;
- 
-}
-
-.fieldset-project-container {
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
-  border-radius: 20px;
-}
-
-.project-title {
-  text-align: center;
-  padding: 10px;
-  margin: auto;
-}
-
-.project-description {
-  padding: 20px;
-  margin: auto;
-  text-align: center;
-}
-
-.fieldset-project1 {
-  /* margin-left: 40px; */
-  max-width: 400px;
-  height: 600px;
-  float: left;
-  border-style: none;
-  text-align: center;
-  background-color: #2b343b;
-  /* border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge; */
-}
-
-.fieldset-project2 {
-  /* margin-right: 40px; */
-  max-width: 400px;
-  height: 600px;
-  float: right;
-  border-style: none;
-  text-align: center;
-  background-color: #2b343b;
-  /* border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge; */
-}
-
-
-.peoject-image {
-  padding: 10px;
-  border-radius: 20px;
-  margin: auto;
-  width: 70px;
-  height: 70px;
-  border-color: rebeccapurple;
-  border-width: 3px;
-  border-style: double;
-}
-
-.peoject-bullet {
-  padding: 20px;
-  max-width: 60%;
-  border-style: none;
-  text-align: justify;
-  margin: auto;
-}
