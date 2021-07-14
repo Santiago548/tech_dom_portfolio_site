@@ -18,6 +18,10 @@ import {
   managerDescription,
   characterDescription,
   storyDescription,
+  fieldsetProject1,
+  fieldsetProject2,
+  projectDescription,
+  fieldsetProgrammingContainer
 } from "../components/layout.module.css";
 
 const ProjectPage = () => {
@@ -25,10 +29,11 @@ const ProjectPage = () => {
     <Layout pageTitle="Project Page">
       <p>All my projects will be here.</p>
       <div className={projectContainer}>
-        <fieldset className={npcImage}>
+        <fieldset className={fieldsetProgrammingContainer}>
+        <fieldset className={fieldsetProject1}>
           <StaticImage alt="npc logo" src="../images/npc_logo.png" />
           <br />
-          <p className={npcDescription}>
+          <p className={projectDescription}>
             Version 1.0 of a quick Dungeons and Dragons 5e NPC generator for
             making randomly generated NPCs for up to three encounters on the
             fly.
@@ -37,13 +42,13 @@ const ProjectPage = () => {
             <Link
               to="https://github.com/Santiago548/NPC_Generator"
               className={npcLink}
-            >
+              >
               <fieldset className={fieldsetLink}>GITHUB</fieldset>
             </Link>
             <Link
               to="https://github.com/Santiago548/NPC_Generator"
               className={npcLink}
-            >
+              >
               <fieldset className={fieldsetLink}>
                 DEMO need to add video
               </fieldset>
@@ -51,13 +56,13 @@ const ProjectPage = () => {
           </fieldset>
         </fieldset>
         {/* character manager links */}
-        <fieldset className={characterImage}>
+        <fieldset className={fieldsetProject2}>
           <StaticImage
             alt="character manager logo"
             src="../images/character_manager.png"
-          />
+            />
           <br />
-          <p className={characterDescription}>
+          <p className={projectDescription}>
             A character manager with a user sign-up and login capability to
             store characters for a D&D campaign. with validations and errors to
             not allow others to modify other characters
@@ -66,21 +71,25 @@ const ProjectPage = () => {
             <Link
               href="https://github.com/Santiago548/DND_character_manager"
               className={characterLink}
-            >
+              >
               <fieldset className={fieldsetLink}>GITHUB</fieldset>
             </Link>
             <Link
               to="https://github.com/Santiago548/NPC_Generator"
               className={characterLink}
-            >
+              >
               <fieldset className={fieldsetLink}>
                 DEMO need to add video
               </fieldset>
             </Link>
+              </fieldset>
           </fieldset>
         </fieldset>
+       <br />
+  
         {/* NPC generator links */}
-        <fieldset className={storyImage}>
+        <fieldset className={fieldsetProgrammingContainer}>
+        <fieldset className={fieldsetProject1}>
           <StaticImage
             alt="story generator logo"
             src="../images/character_generator.png"
@@ -110,14 +119,15 @@ const ProjectPage = () => {
             </Link>
           </fieldset>
         </fieldset>
+        <br />
         {/*  campaign manager links */}
-        <fieldset className={managerImage}>
+        <fieldset className={fieldsetProject2}>
           <StaticImage
             alt="campaign manager logo"
             src="../images/campaign_manager.png"
           />
           <br />
-          <p className={managerDescription}>
+          <p className={projectDescription}>
             Application with the ability for users to sign up and log in to
             store campaign information for players to create characters and
             dungeon masters to create campaigns.
@@ -138,6 +148,7 @@ const ProjectPage = () => {
               </fieldset>
             </Link>
           </fieldset>
+        </fieldset>
         </fieldset>
       </div>
     </Layout>

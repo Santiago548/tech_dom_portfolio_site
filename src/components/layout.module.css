@@ -68,7 +68,7 @@ body {
 
 /* PROJECT PAGE */
 
-.project-container {
+/* .project-container {
   display: inline-grid;
   width: 100%;
   grid-template-columns: 9% 40% 2% 40% 9%;
@@ -82,9 +82,9 @@ body {
     ". character . story ."
     ". characterdescription . storydescription ."
     ". characterlink . storylink .";
-}
+} */
 
-.npc-image {
+/* .npc-image {
   grid-area: npc;
   max-width: max-content;
   height: max-content;
@@ -135,7 +135,7 @@ body {
   border-color: rebeccapurple;
   border-width: 6px;
   border-style: ridge;
-}
+} */
 
 .project-no-fieldset {
   border: none;
@@ -211,7 +211,7 @@ body {
   color: #B87333;
 }
 
-.npc-description {
+/* .npc-description {
   grid-area: npcdescription;
   width: 100%;
   height: max-content;
@@ -233,7 +233,7 @@ body {
   grid-area: storydescription;
   width: 100%;
   
-}
+} */
 
 .social-container {
   text-align: center;
@@ -357,3 +357,73 @@ body {
 }
 
 /* navigation test */
+
+.project-container {
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  font-family: "DisketMono", monospace;
+ 
+}
+
+.project-fieldset-container {
+  border: none;
+}
+
+.project-title {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.project-description {
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.fieldset-project1 {
+  /* margin-left: 40px; */
+  max-width: 400px;
+  height: 600px;
+  float: left;
+  border-style: none;
+  text-align: center;
+  background-color: #2b343b;
+  /* border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: ridge; */
+}
+
+.fieldset-project2 {
+  /* margin-right: 40px; */
+  max-width: 400px;
+  height: 600px;
+  float: right;
+  border-style: none;
+  text-align: center;
+  background-color: #2b343b;
+  /* border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: ridge; */
+}
+
+
+.peoject-image {
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-color: rebeccapurple;
+  border-width: 3px;
+  border-style: ridge;
+}
+
+.peoject-bullet {
+  padding: 20px;
+  max-width: 60%;
+  border-style: none;
+  text-align: justify;
+  margin: auto;
+}
