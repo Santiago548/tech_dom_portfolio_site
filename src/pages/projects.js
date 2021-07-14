@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Footer from "../components/footer";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import {
@@ -146,6 +147,7 @@ const ProjectPage = () => {
           </fieldset>
         </fieldset>
       </div>
+      <Footer />
     </Layout>
   );
 };

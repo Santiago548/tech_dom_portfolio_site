@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Footer from "../components/footer";
 import { StaticImage } from "gatsby-plugin-image";
 import {
   skillTitle,
@@ -180,6 +181,7 @@ const SkillsPage = () => {
         </fieldset>
         </fieldset>
       </div>
+      <Footer />
     </Layout>
   );
 };
