@@ -21,7 +21,7 @@ import {
   fieldsetProject1,
   fieldsetProject2,
   projectDescription,
-  fieldsetProgrammingContainer
+  fieldsetProjectContainer
 } from "../components/layout.module.css";
 
 const ProjectPage = () => {
@@ -29,7 +29,7 @@ const ProjectPage = () => {
     <Layout pageTitle="Project Page">
       <p>All my projects will be here.</p>
       <div className={projectContainer}>
-        <fieldset className={fieldsetProgrammingContainer}>
+        <fieldset className={fieldsetProjectContainer}>
         <fieldset className={fieldsetProject1}>
           <StaticImage alt="npc logo" src="../images/npc_logo.png" />
           <br />
@@ -88,7 +88,7 @@ const ProjectPage = () => {
        <br />
   
         {/* NPC generator links */}
-        <fieldset className={fieldsetProgrammingContainer}>
+        <fieldset className={fieldsetProjectContainer}>
         <fieldset className={fieldsetProject1}>
           <StaticImage
             alt="story generator logo"
@@ -119,7 +119,7 @@ const ProjectPage = () => {
             </Link>
           </fieldset>
         </fieldset>
-        <br />
+
         {/*  campaign manager links */}
         <fieldset className={fieldsetProject2}>
           <StaticImage

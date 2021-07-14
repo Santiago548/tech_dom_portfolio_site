@@ -28,7 +28,8 @@ body {
   height: 250px;
   border-color: rebeccapurple;
   border-width: 6px;
-  border-style: ridge;
+  border-style: double;
+  overflow: hidden;
 }
 
 .nav-links {
@@ -67,75 +68,6 @@ body {
 }
 
 /* PROJECT PAGE */
-
-/* .project-container {
-  display: inline-grid;
-  width: 100%;
-  grid-template-columns: 9% 40% 2% 40% 9%;
-  grid-template-rows: auto;
-  column-gap: 5px;
-  row-gap: 5px;
-  grid-template-areas:
-    ". npc . manager ."
-    ". npcdescription . managerdescription ."
-    ". npclink . managerlink ."
-    ". character . story ."
-    ". characterdescription . storydescription ."
-    ". characterlink . storylink .";
-} */
-
-/* .npc-image {
-  grid-area: npc;
-  max-width: max-content;
-  height: max-content;
-  justify-self: center;
-  object-fit: scale-down;
-  object-position: center;
-  background-color: #2b343b;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge;
-}
-
-.character-image {
-  grid-area: character;
-  justify-self: center;
-  max-width: max-content;
-  height: max-content;
-  object-fit: scale-down;
-  object-position: center;
-  background-color: #2b343b;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge;
-}
-
-.story-image {
-  grid-area: story;
-  justify-self: center;
-  max-width: max-content;
-  height: max-content;
-  object-fit: scale-down;
-  object-position: center;
-  background-color: #2b343b;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge;
-  
-}
-
-.manager-image {
-  grid-area: manager;
-  max-width: max-content;
-  height: max-content;
-  justify-self: center;
-  object-fit: scale-down;
-  object-position: center;
-  background-color: #2b343b;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: ridge;
-} */
 
 .project-no-fieldset {
   border: none;
@@ -245,14 +177,14 @@ body {
 .fieldset-web-container {
   border-color: rebeccapurple;
   border-width: 6px;
-  border-style: ridge;
+  border-style: double;
   border-radius: 20px;
 }
 
 .fieldset-programming-container {
   border-color: rebeccapurple;
   border-width: 6px;
-  border-style: ridge;
+  border-style: double;
   border-radius: 20px;
 }
 
@@ -334,7 +266,7 @@ body {
   background-color: #2b343b;
   border-color: rebeccapurple;
   border-width: 6px;
-  border-style: ridge;
+  border-style: double;
 }
 
 .skill-image {
@@ -345,7 +277,7 @@ body {
   height: 70px;
   border-color: rebeccapurple;
   border-width: 3px;
-  border-style: ridge;
+  border-style: double;
 }
 
 .skill-bullet {
@@ -356,7 +288,7 @@ body {
   margin: auto;
 }
 
-/* navigation test */
+/* project test */
 
 .project-container {
   text-align: center;
@@ -366,8 +298,11 @@ body {
  
 }
 
-.project-fieldset-container {
-  border: none;
+.fieldset-project-container {
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 20px;
 }
 
 .project-title {
@@ -417,7 +352,7 @@ body {
   height: 70px;
   border-color: rebeccapurple;
   border-width: 3px;
-  border-style: ridge;
+  border-style: double;
 }
 
 .peoject-bullet {
