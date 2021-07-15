@@ -2,7 +2,15 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import ContactPage from "./contact";
-import { aboutMe } from "../components/layout.module.css";
+import { StaticImage } from "gatsby-plugin-image";
+import {
+  aboutMe,
+  certLogo,
+  fieldsetCert1,
+  fieldsetCert2,
+  fieldsetCert3,
+  certDescription
+} from "../components/layout.module.css";
 
 const AboutPage = () => {
   return (
@@ -24,8 +32,69 @@ const AboutPage = () => {
             Dungeons and Dragons campaigns.
           </p>
         </fieldset>
-      <ContactPage />
-      <br />
+        <h1>Certifications</h1>
+
+        <fieldset className={fieldsetCert3}>
+        <h1>full stack web developer</h1>
+          <StaticImage
+            className={certLogo}
+            alt="Flatiron logo"
+            src="../images/flatironschool.png"
+          />
+          <p className={certDescription}>
+            Through Flatiron School's rigorous but rewarding program, I
+            developed the skills needed for a Full-Stack developer. I was given
+            the tools to think and build like a software engineer. By combining
+            lectures, labs, and close collaboration. Showcasing my progress
+            through my Portfolio Projects, and technical reviews. Among the
+            skills I acquired through the curriculum were Ruby, HTML & CSS,
+            Object-Orientation, Git, Object Relational Mapping, SQL, Rack,
+            Sinatra, Ruby on Rails, Javascript and React. However, the learning
+            process was carefully designed to make me independent of any
+            specific language or technology.
+          </p>
+        </fieldset>
+
+        <br />
+        {/* row 2  */}
+        <fieldset className={aboutMe}>
+          <fieldset className={fieldsetCert1}>
+          <h1> Lvl 1 Certified</h1>
+            <StaticImage
+              className={certLogo}
+              alt="NREMT logo"
+              src="../images/NREMT_logo.png"
+            />
+            <p>
+              Obtaining my EMT license helped me develop the ability to remain
+              calm under pressure and how to act quickly and decisively in any
+              situation. As a health professional, an emergency medical
+              technician (EMT), also known as an ambulance technician, provides
+              emergency medical services.
+            </p>
+          </fieldset>
+
+          <fieldset className={fieldsetCert2}>
+            <h1> Lvl 1 Certified</h1>
+            <StaticImage
+              className={certLogo}
+              alt="NREMT logo"
+              src="../images/parkouredu.png"
+            />
+            <p>
+              I have almost a decade's worth of experience practicing and
+              teaching parkour and other movement disciplines. I am capable of
+              overcoming and adapting to any obstacle that stands in my path. It
+              does not matter if it is an 8-foot wall or having to adapt on the
+              fly to teach a diverse group of skilled people in varying stages
+              of physical and mental ability how to move through
+              their environment efficiently and safely.
+            </p>
+          </fieldset>
+        </fieldset>
+        <br />
+        <ContactPage />
+        <br />
       </Layout>
       <Footer />
     </div>
