@@ -9,7 +9,7 @@ import {
   fieldsetCert1,
   fieldsetCert2,
   fieldsetCert3,
-  certDescription
+  certDescription,
 } from "../components/layout.module.css";
 
 const AboutPage = () => {
@@ -35,7 +35,7 @@ const AboutPage = () => {
         <h1>Certifications</h1>
 
         <fieldset className={fieldsetCert3}>
-        <h1>full stack web developer</h1>
+          <h1>full stack developer</h1>
           <StaticImage
             className={certLogo}
             alt="Flatiron logo"
@@ -59,7 +59,7 @@ const AboutPage = () => {
         {/* row 2  */}
         <fieldset className={aboutMe}>
           <fieldset className={fieldsetCert1}>
-          <h1> Lvl 1 Certified</h1>
+            <h1>Certified Emergency medical technician</h1>
             <StaticImage
               className={certLogo}
               alt="NREMT logo"
@@ -75,7 +75,7 @@ const AboutPage = () => {
           </fieldset>
 
           <fieldset className={fieldsetCert2}>
-            <h1> Lvl 1 Certified</h1>
+            <h1> Lvl 1 Certified parkour instructor</h1>
             <StaticImage
               className={certLogo}
               alt="NREMT logo"
@@ -83,12 +83,11 @@ const AboutPage = () => {
             />
             <p>
               I have almost a decade's worth of experience practicing and
-              teaching parkour and other movement disciplines. I am capable of
-              overcoming and adapting to any obstacle that stands in my path. It
-              does not matter if it is an 8-foot wall or having to adapt on the
-              fly to teach a diverse group of skilled people in varying stages
-              of physical and mental ability how to move through
-              their environment efficiently and safely.
+              teaching parkour. I am capable of overcoming and adapting to any
+              obstacle that stands in my path. It does not matter if it is an
+              8-foot wall or having to adapt on the fly to teach a diverse group
+              of skilled people in varying stages of physical and mental ability
+              how to move through their environment efficiently and safely.
             </p>
           </fieldset>
         </fieldset>
