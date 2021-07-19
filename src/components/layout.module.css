@@ -67,6 +67,14 @@ hr {
   border-width: 6px;
   border-style: double;
   overflow: hidden;
+  overflow-x:hidden;
+  overflow-y: hidden;
+}
+
+.nav-float {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .nav-links {
@@ -85,9 +93,9 @@ hr {
   font-size: inherit;
 }
 .nav-link-text:hover {
-    text-align: center;
-    color: #0091ff;
-  }
+  text-align: center;
+  color: #0091ff;
+}
 
 /* ABOUT PAGE*/
 
@@ -333,7 +341,6 @@ hr {
   background-color: #2b343b;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin-top: 4px;
   border-bottom: double 6px rebeccapurple;
 }
 
