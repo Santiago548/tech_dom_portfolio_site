@@ -15,6 +15,10 @@ const AboutPage = () => {
   return (
     <a id="about-page">
       <div pageTitle="About Me">
+      <br />
+      <br />
+      <hr></hr>
+      <br />
         <h1>ABOUT ME</h1>
         <fieldset className={aboutMe}>
           <p>

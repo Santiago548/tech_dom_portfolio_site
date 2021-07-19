@@ -40,11 +40,11 @@ body {
   margin: auto;
 }
 
-.hiiii-descrption {
-  margin: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
+hr {
+  max-width: 1200px;
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
 }
 
 .footer {
@@ -174,7 +174,7 @@ body {
 .project-description {
   padding: 20px;
   margin: auto;
-  text-align: center;
+  text-align: justify;
   height: 180px;
 }
 
@@ -183,7 +183,7 @@ body {
   height: 600px;
   float: left;
   border-style: none;
-  text-align: center;
+  text-align: justify;
   background-color: #2b343b;
 }
 
@@ -192,7 +192,7 @@ body {
   height: 600px;
   float: right;
   border-style: none;
-  text-align: center;
+  text-align: justify;
   background-color: #2b343b;
 }
 
