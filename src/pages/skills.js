@@ -25,7 +25,7 @@ const SkillsPage = () => {
           <br />
         <div className={skillContainer}>
           {/* row 1 */}
-          <h1>PROGRAMMING</h1>
+          <h1>SKILLS</h1>
           <fieldset className={fieldsetProgrammingContainer}>
             <fieldset className={skillFieldsetContainer}>
               <fieldset className={fieldsetSkill1}>
@@ -107,7 +107,6 @@ const SkillsPage = () => {
           </fieldset>
           <br />
           {/* row 3 */}
-          <h1>WEB</h1>
           <fieldset className={fieldsetWebContainer}>
             <fieldset className={skillFieldsetContainer}>
               <fieldset className={fieldsetSkill1}>

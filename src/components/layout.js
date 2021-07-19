@@ -43,6 +43,11 @@ const Layout = ({ pageTitle, children }) => {
             SKILLS
           </Link>
         </li>
+        <li className={navLinkItem}>
+          <Link to="#contact-page" className={navLinkText}>
+            CONTACT
+          </Link>
+        </li>
       </ul>
         <title>
           {pageTitle} | {data.site.siteMetadata.title}

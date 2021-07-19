@@ -74,9 +74,8 @@ hr {
   display: flex;
   list-style: none;
   padding-left: 10px;
-  /* padding-bottom: 10px;
-  padding-top: 4px; */
 }
+
 .nav-link-item {
   padding-right: 2rem;
 }
@@ -92,15 +91,24 @@ hr {
 
 /* ABOUT PAGE*/
 
+.about-container {
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  font-family: "DisketMono", monospace;
+}
+
 .about-me {
   justify-items: center;
   max-width: 1000px;
   color: #fff;
   margin: auto;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
-  border-radius: 20px;
+  background-color: #2b343b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 4px;
+  border: none;
+  border-bottom: double 6px rebeccapurple;
 }
 
 .cert-logo {
@@ -113,42 +121,6 @@ hr {
   overflow: hidden;
 }
 
-/* .fieldset-cert1 {
-  max-width: 400px;
-  height: 550px;
-  float: left;
-  border-style: none;
-  text-align: center;
-  background-color: #2b343b;
-}
-
-.fieldset-cert2 {
-  max-width: 400px;
-  height: 550px;
-  float: right;
-  border-style: none;
-  text-align: center;
-  background-color: #2b343b;
-}
-
-.fieldset-cert3 {
-  max-width: 1000px;
-  height: 450px;
-  margin: auto;
-  border-style: none;
-  justify-content: center;
-  text-align: center;
-  background-color: #2b343b;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
-}
-
-.cert-description {
-  max-width: 800px;
-  margin: auto;
-} */
-
 /* PROJECT PAGE */
 
 .project-container {
@@ -159,10 +131,11 @@ hr {
 }
 
 .fieldset-project-container {
-  border-color: rebeccapurple;
+  border: none;
+  /* border-color: rebeccapurple;
   border-width: 6px;
   border-style: double;
-  border-radius: 20px;
+  border-radius: 20px; */
 }
 
 .project-title {
@@ -172,42 +145,51 @@ hr {
 }
 
 .project-description {
-  padding: 20px;
+  padding: 10px;
   margin: auto;
-  text-align: justify;
-  height: 180px;
+  text-align: center;
+  height: 125px;
 }
 
 .fieldset-project1 {
   max-width: 400px;
-  height: 600px;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 4px;
   float: left;
   border-style: none;
-  text-align: justify;
+  text-align: center;
   background-color: #2b343b;
+  border-bottom: double 6px rebeccapurple;
 }
 
 .fieldset-project2 {
   max-width: 400px;
-  height: 600px;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 4px;
   float: right;
   border-style: none;
-  text-align: justify;
+  text-align: center;
   background-color: #2b343b;
+  border-bottom: double 6px rebeccapurple;
 }
 
-.peoject-image {
-  padding: 10px;
+.project-image {
   border-radius: 20px;
   margin: auto;
-  width: 70px;
-  height: 70px;
+  max-width: 60%;
+  max-height: 60%;
+  background-color: #232c33;
   border-color: rebeccapurple;
-  border-width: 3px;
+  border-width: 6px;
   border-style: double;
+  border-radius: 20px;
 }
 
-.peoject-bullet {
+.project-bullet {
   padding: 20px;
   max-width: 60%;
   border-style: none;
@@ -320,16 +302,12 @@ hr {
 }
 
 .fieldset-web-container {
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
+  border: none;
   border-radius: 20px;
 }
 
 .fieldset-programming-container {
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
+  border: none;
   border-radius: 20px;
 }
 
@@ -353,6 +331,10 @@ hr {
   border-style: none;
   text-align: center;
   background-color: #2b343b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 4px;
+  border-bottom: double 6px rebeccapurple;
 }
 
 .fieldset-skill2 {
@@ -362,6 +344,10 @@ hr {
   border-style: none;
   text-align: center;
   background-color: #2b343b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 4px;
+  border-bottom: double 6px rebeccapurple;
 }
 
 .fieldset-skill3 {
