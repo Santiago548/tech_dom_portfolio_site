@@ -100,6 +100,7 @@ body {
   border-color: rebeccapurple;
   border-width: 6px;
   border-style: double;
+  border-radius: 20px;
 }
 
 .cert-logo {
@@ -112,7 +113,7 @@ body {
   overflow: hidden;
 }
 
-.fieldset-cert1 {
+/* .fieldset-cert1 {
   max-width: 400px;
   height: 550px;
   float: left;
@@ -146,7 +147,7 @@ body {
 .cert-description {
   max-width: 800px;
   margin: auto;
-}
+} */
 
 /* PROJECT PAGE */
 

@@ -1,6 +1,6 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import Footer from "../components/footer";
+// import Layout from "../components/layout";
+// import Footer from "../components/footer";
 import ContactPage from "./contact";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
@@ -21,8 +21,9 @@ import {
 
 const ProjectPage = () => {
   return (
-    <Layout pageTitle="Projects">
-      <p>All projects will be here.</p>
+    <a id="projects-page">
+    <div pageTitle="Projects">
+      <h1>PROJECTS</h1>
       <div className={projectContainer}>
         <fieldset className={fieldsetProjectContainer}>
           <fieldset className={fieldsetProject1}>
@@ -92,10 +93,8 @@ const ProjectPage = () => {
             <br />
             <p className={storyDescription}>
               With this application, you can quickly construct characters for
-              use in role-playing games and writing stories. You can create
-              character cards using the forms, or use the character generator to
-              generate characters randomly from one of three genres. Genres
-              include fantasy, sci-fi, and general fiction.
+              use in role-playing games and story writting. from one of three
+              genres fantasy, sci-fi, and general fiction.
             </p>
             <fieldset className={projectNoFieldset}>
               <Link
@@ -124,10 +123,9 @@ const ProjectPage = () => {
             />
             <br />
             <p className={projectDescription}>
-              An application were users can register either as a player or as a Game Master. The
-              player has the option of creating and storing D&D characters, while
-              the Game Master has the option of storing information about 
-              campaigns to store player characters in a adventuring party, and creating characters for other players.
+              An application for Game Masters to organize D&D campaigns. With
+              Players ability to create characters, and Game Masters ability to
+              create campaigns.
             </p>
             <fieldset className={projectNoFieldset}>
               <Link
@@ -148,11 +146,8 @@ const ProjectPage = () => {
           </fieldset>
         </fieldset>
       </div>
-      <br></br>
-      <ContactPage />
-      <br />
-      <Footer />
-    </Layout>
+    </div>
+    </a>
   );
 };
 export default ProjectPage;

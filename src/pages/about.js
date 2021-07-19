@@ -1,6 +1,5 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import Footer from "../components/footer";
+// import Layout from "../components/layout";
 import ContactPage from "./contact";
 import { StaticImage } from "gatsby-plugin-image";
 import {
@@ -14,8 +13,9 @@ import {
 
 const AboutPage = () => {
   return (
-    <div>
-      <Layout pageTitle="About Me">
+    <a id="about-page">
+      <div pageTitle="About Me">
+        <h1>ABOUT ME</h1>
         <fieldset className={aboutMe}>
           <p>
             From owning a parkour gym and coaching students to drafting Civil 3D
@@ -32,7 +32,7 @@ const AboutPage = () => {
             Dungeons and Dragons campaigns.
           </p>
         </fieldset>
-        <h1>Certifications</h1>
+        {/* <h1>Certifications</h1>
 
         <fieldset className={fieldsetCert3}>
           <h1>full stack developer</h1>
@@ -56,7 +56,7 @@ const AboutPage = () => {
         </fieldset>
 
         <br />
-        {/* row 2  */}
+        row 2 
         <fieldset className={aboutMe}>
           <fieldset className={fieldsetCert1}>
             <h1>Certified Emergency medical technician</h1>
@@ -91,12 +91,9 @@ const AboutPage = () => {
             </p>
           </fieldset>
         </fieldset>
-        <br />
-        <ContactPage />
-        <br />
-      </Layout>
-      <Footer />
-    </div>
+        <br /> */}
+      </div>
+    </a>
   );
 };
 export default AboutPage;

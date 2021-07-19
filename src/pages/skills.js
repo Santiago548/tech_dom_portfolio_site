@@ -1,7 +1,7 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import Footer from "../components/footer";
-import ContactPage from "./contact";
+// import Layout from "../components/layout";
+// import Footer from "../components/footer";
+// import ContactPage from "./contact";
 import { StaticImage } from "gatsby-plugin-image";
 import {
   skillTitle,
@@ -17,7 +17,8 @@ import {
 
 const SkillsPage = () => {
   return (
-    <Layout pageTitle="Skills">
+    <a id="skills-page">
+    <div pageTitle="Skills">
       <div className={skillContainer}>
         {/* row 1 */}
         <h1>PROGRAMMING</h1>
@@ -180,10 +181,8 @@ const SkillsPage = () => {
         </fieldset>
         </fieldset>
       </div>
-      <ContactPage />
-      <br />
-      <Footer />
-    </Layout>
+    </div>
+    </a>
   );
 };
 

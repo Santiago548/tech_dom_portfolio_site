@@ -2,6 +2,9 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Footer from "../components/footer"
 import ContactPage from "./contact.js";
+import SkillsPage from "./skills";
+import AboutPage from "./about";
+import ProjectPage from "./projects";
 import { StaticImage } from "gatsby-plugin-image";
 import { 
   profilePic,
@@ -10,6 +13,7 @@ import {
 } from "../components/layout.module.css";
 import "../fonts/Disket-Mono-Bold.ttf";
 import "../fonts/Disket-Mono-Regular.ttf";
+
 
 const IndexPage = () => {
   return (
@@ -24,11 +28,14 @@ const IndexPage = () => {
         <StaticImage
           alt="PROFILE PIC"
           className={profilePic}
-          src="../images/profile_pic.jpg"
+          src="../images/profile_pic.png"
         />
+      <br />
+      <AboutPage />
+      <SkillsPage />
+      <ProjectPage />
       <br></br>
       <ContactPage />
-      <br />
       </Layout>
       <Footer />
     </div>
