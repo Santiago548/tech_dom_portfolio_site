@@ -62,13 +62,14 @@ hr {
 .profile-pic {
   border-radius: 50%;
   width: 250px;
-  height: 250px;
   border-color: rebeccapurple;
   border-width: 6px;
   border-style: double;
-  overflow: hidden;
-  overflow-x:hidden;
-  overflow-y: hidden;
+  border-radius: 50%;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .nav-float {
@@ -334,7 +335,7 @@ hr {
 
 .fieldset-skill1 {
   max-width: 400px;
-  height: 420px;
+  height: 375px;
   float: left;
   border-style: none;
   text-align: center;
@@ -346,7 +347,7 @@ hr {
 
 .fieldset-skill2 {
   max-width: 400px;
-  height: 420px;
+  height: 375px;
   float: right;
   border-style: none;
   text-align: center;

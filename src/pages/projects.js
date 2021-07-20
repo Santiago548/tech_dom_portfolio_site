@@ -50,11 +50,11 @@ const ProjectPage = () => {
                   <fieldset className={fieldsetLink}>GITHUB</fieldset>
                 </Link>
                 <Link
-                  to="https://github.com/Santiago548/NPC_Generator"
+                  to="https://www.youtube.com/watch?v=QNPN1UOfpOg&t=5s"
                   className={npcLink}
                 >
                   <fieldset className={fieldsetLink}>
-                    DEMO need to add video
+                    DEMO
                   </fieldset>
                 </Link>
               </fieldset>
@@ -115,11 +115,11 @@ const ProjectPage = () => {
                   <fieldset className={fieldsetLink}>GITHUB</fieldset>
                 </Link>
                 <Link
-                  to="https://github.com/Santiago548/NPC_Generator"
+                  to="https://www.youtube.com/watch?v=u0Qktu4uPR8&t=5s"
                   className={storyLink}
                 >
                   <fieldset className={fieldsetLink}>
-                    DEMO need to add video
+                    DEMO
                   </fieldset>
                 </Link>
               </fieldset>
