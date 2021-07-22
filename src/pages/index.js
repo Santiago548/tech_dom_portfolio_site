@@ -5,6 +5,7 @@ import ContactPage from "./contact.js";
 import SkillsPage from "./skills";
 import AboutPage from "./about";
 import ProjectPage from "./projects";
+
 import { StaticImage } from "gatsby-plugin-image";
 import { 
   profilePic,
@@ -18,6 +19,7 @@ import "../fonts/Disket-Mono-Regular.ttf";
 const IndexPage = () => {
   return (
     <div>
+      
       <Layout pageTitle="Home Page">
         <br />
         <br />

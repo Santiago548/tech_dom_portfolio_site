@@ -26,11 +26,11 @@ const Layout = ({ pageTitle, children }) => {
       <div className={pageTop}>
         <div className={navFloat}>
           <ul className={navLinks}>
-            {/* <li className={navLinkItem}>
+            <li className={navLinkItem}>
               <Link to="/" className={navLinkText}>
                 HOME
               </Link>
-            </li> */}
+            </li>
             <li className={navLinkItem}>
               <Link to="#about-page" className={navLinkText}>
                 ABOUT
