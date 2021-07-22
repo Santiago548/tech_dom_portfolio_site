@@ -5,6 +5,7 @@ import {
   socialLink,
   fieldsetSocial,
   container,
+  pageTitle
 } from "../components/layout.module.css";
 
 const ContactPage = () => {
@@ -12,7 +13,7 @@ const ContactPage = () => {
     <a id="contact-page">
       <div className={container}>
         <br />
-        <h1>Connect With Me</h1>
+        <h1 className={pageTitle}>Connect With Me</h1>
         <div className={socialContainer}>
           <a
             href="https://www.linkedin.com/in/dominic-barajas/"

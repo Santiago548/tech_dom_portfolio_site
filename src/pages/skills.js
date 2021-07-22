@@ -25,7 +25,7 @@ const SkillsPage = () => {
           <br />
         <div className={skillContainer}>
           {/* row 1 */}
-          <h1>SKILLS</h1>
+          <h1 className={skillTitle}>SKILLS</h1>
           <fieldset className={fieldsetProgrammingContainer}>
             <fieldset className={skillFieldsetContainer}>
               <fieldset className={fieldsetSkill1}>

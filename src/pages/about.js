@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import {
   aboutMe,
   aboutContainer,
+  pageTitle
 } from "../components/layout.module.css";
 
 const AboutPage = () => {
@@ -13,7 +14,7 @@ const AboutPage = () => {
         <br />
         <hr></hr>
         <br />
-        <h1>ABOUT ME</h1>
+        <h1 className={pageTitle}>ABOUT ME</h1>
         <div className={aboutContainer}>
           <fieldset className={aboutMe}>
             <p>

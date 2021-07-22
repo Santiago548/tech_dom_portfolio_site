@@ -1,12 +1,13 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import {
   container,
   heading,
+  siteLogo,
   navLinks,
   navLinkItem,
   navLinkText,
-  siteTitle,
   pageTop,
   navFloat,
 } from "./layout.module.css";
@@ -55,7 +56,12 @@ const Layout = ({ pageTitle, children }) => {
         <title>
           {pageTitle} | {data.site.siteMetadata.title}
         </title>
-        <p className={siteTitle}>{data.site.siteMetadata.title}</p>
+          <StaticImage
+                  className={siteLogo}
+                  alt="logo"
+                  src="../images/logo_1.png"
+                />
+        {/* <p className={siteTitle}>{data.site.siteMetadata.title}</p> */}
       </div>
         <br />
         {children}

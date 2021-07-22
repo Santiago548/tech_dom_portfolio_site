@@ -15,6 +15,7 @@ import {
   fieldsetProject3,
   projectDescription,
   fieldsetProjectContainer,
+  pageTitle
 } from "../components/layout.module.css";
 
 const ProjectPage = () => {
@@ -26,7 +27,7 @@ const ProjectPage = () => {
         <hr></hr>
         <br />
         <div className={projectContainer}>
-          <h1>PROJECTS</h1>
+          <h1 className={pageTitle}>PROJECTS</h1>
           <fieldset className={fieldsetProjectContainer}>
             <fieldset className={fieldsetProject1}>
               <StaticImage
@@ -76,11 +77,11 @@ const ProjectPage = () => {
                   <fieldset className={fieldsetLink}>GITHUB</fieldset>
                 </Link>
                 <Link
-                  to="https://github.com/Santiago548/NPC_Generator"
+                  to="https://youtu.be/Q6jHC3XTUbE"
                   className={characterLink}
                 >
                   <fieldset className={fieldsetLink}>
-                    DEMO need to add video
+                    DEMO
                   </fieldset>
                 </Link>
               </fieldset>
@@ -173,7 +174,7 @@ const ProjectPage = () => {
                     className={npcLink}
                   >
                     <fieldset className={fieldsetLink}>
-                      DEMO need to add video
+                      DEMO
                     </fieldset>
                   </Link>
                 </fieldset>
