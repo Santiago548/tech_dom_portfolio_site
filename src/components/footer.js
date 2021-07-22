@@ -1,15 +1,17 @@
 import * as React from 'react'
 import {
   container,
-  footer  
+  footer,
+  footerText  
 } from './layout.module.css'
 
 const Footer = () => {
   return (
     <div className={container}>
         <br />
-        <footer class={footer}>
-        <small><strong>&copy; 2021 Dominic Barajas</strong></small>
+        <footer className={footer}>
+        <strong>&copy;</strong>
+        <small><strong className={footerText}> 2021 Dominic Barajas</strong></small>
       </footer>
     </div>
   )

@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "DisketMono";
-  src: local("DisketMono"),
+  font-family: "Bit";
+  src: local("Bit"),
     url("../fonts/ka1.ttf") format("truetype");
   font-weight: bold;
 }
 
-/* @font-face {
+@font-face {
   font-family: "DisketMono";
   src: local("DisketMono"),
     url("../fonts/Disket-Mono-Regular.ttf") format("truetype");
   font-weight: bold;
-} */
+}
 
 body {
   background-color: #232c33;
@@ -37,7 +37,7 @@ body {
 }
 
 .page-title {
-  font-family: "DisketMono", monospace;
+  font-family: "Bit", monospace;
 }
 
 .page-top {
@@ -54,6 +54,7 @@ body {
   max-width: 700px;
   color: #fff;
   margin: auto;
+  font-family: 'DisketMono';
 }
 
 hr {
@@ -72,6 +73,10 @@ hr {
   padding-bottom: 2px;
   padding-left: 4px;
   border-top: double 6px rebeccapurple;
+}
+
+.footer-text {
+  font-family: 'Bit';
 }
 
 .profile-pic {
@@ -106,7 +111,7 @@ hr {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: inherit;
-  font-family: "DisketMono", monospace;
+  font-family: "Bit", monospace;
 }
 .nav-link-text:hover {
   text-align: center;
@@ -132,6 +137,7 @@ hr {
   margin-top: 4px;
   border: none;
   border-bottom: double 6px rebeccapurple;
+  font-family: "DisketMono";
 }
 
 .cert-logo {
@@ -171,6 +177,7 @@ hr {
   margin: auto;
   text-align: center;
   height: 125px;
+  font-family: "DisketMono";
 }
 
 .fieldset-project1 {
@@ -240,7 +247,8 @@ hr {
   border-color: rebeccapurple;
   border-width: 3px;
   border-style: ridge;
-  font-family: "DisketMono", monospace;
+  text-size-adjust: 30px;
+  font-family: "Bit", monospace;
 }
 
 .npc-link {
@@ -309,11 +317,11 @@ hr {
 .social-link {
   text-align: center;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   margin: auto;
   max-width: 1000px;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 .fieldset-social {
@@ -349,7 +357,7 @@ hr {
   text-align: center;
   padding: 10px;
   margin: auto;
-  font-family: "DisketMono", monospace;
+  font-family: "Bit", monospace;
 }
 
 .skill-description {
@@ -357,6 +365,7 @@ hr {
   padding: 20px;
   margin: auto;
   text-align: center;
+  font-family: "DisketMono";
 }
 
 .fieldset-skill1 {
