@@ -23,7 +23,7 @@ const ContactPage = () => {
               <StaticImage
                 className={socialLink}
                 alt="linkedin"
-                src="../images/linkedin_logo.png"
+                src="../images/social/linkedin_logo.png"
               />
             </fieldset>
           </a>
@@ -32,7 +32,7 @@ const ContactPage = () => {
               <StaticImage
                 className={socialLink}
                 alt="gmail"
-                src="../images/gmail_logo.png"
+                src="../images/social/gmail_logo.png"
               />
             </fieldset>
           </a>
@@ -44,7 +44,7 @@ const ContactPage = () => {
               <StaticImage
                 className={socialLink}
                 alt="instagram"
-                src="../images/instagram_logo.png"
+                src="../images/social/instagram_logo.png"
               />
             </fieldset>
           </a>
@@ -54,7 +54,7 @@ const ContactPage = () => {
               <StaticImage
                 className={socialLink}
                 alt="twitter"
-                src="../images/twitter_logo.png"
+                src="../images/social/twitter_logo.png"
               />
             </fieldset>
           </a>
@@ -63,7 +63,7 @@ const ContactPage = () => {
               <StaticImage
                 className={socialLink}
                 alt="dev"
-                src="../images/dev_logo.png"
+                src="../images/social/dev_logo.png"
               />
             </fieldset>
           </a>
@@ -72,17 +72,17 @@ const ContactPage = () => {
               <StaticImage
                 className={socialLink}
                 alt="GitHub"
-                src="../images/github_logo.png"
+                src="../images/social/github_logo.png"
               />
             </fieldset>
           </a>
           {/* <a href="https://www.twitch.tv/santiago5480" target="_blank">
         <fieldset className={fieldsetSocial}>
-        <StaticImage className={socialLink} alt="twitch" src="../images/twitch_logo.png" />
+        <StaticImage className={socialLink} alt="twitch" src="../images/social/twitch_logo.png" />
         </fieldset>
     </a> */}
           {/* <a href="https://www.linkedin.com/in/dominic-barajas/" target="_blank"> 
-            <StaticImage className={socialLink} alt="discord" src="../images/discord_logo.png" />
+            <StaticImage className={socialLink} alt="discord" src="../images/social/discord_logo.png" />
         </a> */}
         </div>
       </div>

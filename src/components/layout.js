@@ -59,7 +59,7 @@ const Layout = ({ pageTitle, children }) => {
           <StaticImage
                   className={siteLogo}
                   alt="logo"
-                  src="../images/logo_1.png"
+                  src="../images/logo_3.png"
                 />
         {/* <p className={siteTitle}>{data.site.siteMetadata.title}</p> */}
       </div>

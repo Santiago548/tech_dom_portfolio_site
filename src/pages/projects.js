@@ -33,7 +33,7 @@ const ProjectPage = () => {
               <StaticImage
                 className={projectImage}
                 alt="npc logo"
-                src="../images/npc_logo.png"
+                src="../images/projects/npc_logo.png"
               />
 
               <p className={projectDescription}>
@@ -61,7 +61,7 @@ const ProjectPage = () => {
               <StaticImage
                 className={projectImage}
                 alt="character manager logo"
-                src="../images/character_manager.png"
+                src="../images/projects/character_manager.png"
               />
 
               <p className={projectDescription}>
@@ -95,7 +95,7 @@ const ProjectPage = () => {
               <StaticImage
                 className={projectImage}
                 alt="story generator logo"
-                src="../images/character_generator.png"
+                src="../images/projects/character_generator.png"
               />
 
               <p className={projectDescription}>
@@ -123,7 +123,7 @@ const ProjectPage = () => {
               <StaticImage
                 className={projectImage}
                 alt="campaign manager logo"
-                src="../images/campaign_manager.png"
+                src="../images/projects/campaign_manager.png"
               />
 
               <p className={projectDescription}>
@@ -155,7 +155,7 @@ const ProjectPage = () => {
                 <StaticImage
                   className={projectImage}
                   alt="npc logo"
-                  src="../images/adventure_handbook_logo.png"
+                  src="../images/projects/adventure_handbook_logo.png"
                 />
 
                 <p className={projectDescription}>

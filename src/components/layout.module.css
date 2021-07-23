@@ -41,8 +41,8 @@ body {
 }
 
 .page-top {
-  background-color: black;
-  border-bottom: double 6px rebeccapurple;
+  background-color: rebeccapurple;
+  border-bottom: double 6px black;
 }
 
 .heading {
@@ -99,7 +99,7 @@ hr {
 
 /* nav bar */
 .nav-links {
-  background-color: black;
+  background-color: rebeccapurple;
   display: flex;
   list-style: none;
   padding-left: 10px;

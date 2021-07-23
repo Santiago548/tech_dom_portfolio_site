@@ -34,7 +34,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="Ruby logo"
-                  src="../images/ruby_logo.png"
+                  src="../images/skills/ruby_logo.png"
                 />
                 <br />
 
@@ -52,7 +52,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="Rails logo"
-                  src="../images/rails_logo.png"
+                  src="../images/skills/rails_logo.png"
                 />
                 <br />
 
@@ -75,7 +75,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="JavaScript Logo"
-                  src="../images/js_logo.png"
+                  src="../images/skills/js_logo.png"
                 />
                 <br />
                 <p className={skillDescription}>
@@ -94,7 +94,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="Sinatra lgoo"
-                  src="../images/sinatra_logo.png"
+                  src="../images/skills/sinatra_logo.png"
                 />
                 <p className={skillDescription}>
                   Sinatra is a Domain Specific Language implemented in Ruby
@@ -115,7 +115,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="html logo"
-                  src="../images/html_logo.png"
+                  src="../images/skills/html_logo.png"
                 />
                 <br />
                 <p className={skillDescription}>
@@ -132,7 +132,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="css logo"
-                  src="../images/css_logo.png"
+                  src="../images/skills/css_logo.png"
                 />
                 <br />
                 <p className={skillDescription}>
@@ -152,7 +152,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="React_logo"
-                  src="../images/react_logo.png"
+                  src="../images/skills/react_logo.png"
                 />
                 <br />
                 <p className={skillDescription}>
@@ -167,7 +167,7 @@ const SkillsPage = () => {
                 <StaticImage
                   className={skillImage}
                   alt="Redux_logo"
-                  src="../images/redux_logo.png"
+                  src="../images/skills/redux_logo.png"
                 />
                 <br />
                 <p className={skillDescription}>
