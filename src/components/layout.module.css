@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Bit";
-  src: local("Bit"),
-    url("../fonts/ka1.ttf") format("truetype");
+  src: local("Bit"), url("../fonts/ka1.ttf") format("truetype");
   font-weight: bold;
 }
 
@@ -12,14 +11,17 @@
   font-weight: bold;
 }
 
-body {
-  background-color: #232c33;
+.example::-webkit-scrollbar {
+  display: none;
 }
 
-.site-logo {
-  margin: auto;
-  height: 60%;
-  width: 60%;
+.example {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #232c33;
 }
 
 .container {
@@ -28,6 +30,24 @@ body {
   max-width: 100%;
   background: #232c33;
   color: #fff;
+}
+
+.site-logo {
+  margin: auto;
+  height: 60%;
+  width: 60%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .site-title {
@@ -54,7 +74,7 @@ body {
   max-width: 700px;
   color: #fff;
   margin: auto;
-  font-family: 'DisketMono';
+  font-family: "DisketMono";
 }
 
 hr {
@@ -64,34 +84,24 @@ hr {
   border-style: double;
 }
 
+/* FOOTER */
 .footer {
   color: #fff;
   background-color: rgb(0, 0, 0);
   text-align: left;
   width: 100%;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 4px;
   border-top: double 6px rebeccapurple;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  padding: 5px;
 }
 
 .footer-text {
-  font-family: 'Bit';
+  font-family: "Bit";
 }
 
-.profile-pic {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  border-color: rebeccapurple;
-  border-width: 6px;
-  border-style: double;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-/* nav bar */
+/* NAV BAR */
 .nav-links {
   background-color: rebeccapurple;
   display: flex;
@@ -514,28 +524,27 @@ hr {
 }
 
 @media screen and (max-width: 960px) {
-  
   .NavbarItems {
     position: relative;
   }
 
   .navbar-icon {
-      display:none;
+    display: none;
   }
 
   .navbar-name {
-      display:block ;
+    display: block;
   }
 
   .navbar-logo {
-      color: #fff;
-      justify-self: start;
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 2rem;
-      display: flex;
-      align-items: center;
-      padding-top: 5px;
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
   }
 
   .nav-menu {

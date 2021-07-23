@@ -1,19 +1,22 @@
-import * as React from 'react'
+import * as React from "react";
 import {
   container,
   footer,
-  footerText  
-} from './layout.module.css'
+  footerText,
+} from "./layout.module.css";
 
 const Footer = () => {
   return (
-    <div className={container}>
-        <br />
-        <footer className={footer}>
+    <div>
+      <br />
+      <footer className={footer}>
         <strong>&copy;</strong>
-        <small><strong className={footerText}> 2021 Dominic Barajas</strong></small>
+        <small>
+          <strong className={footerText}> 2021 Dominic Barajas</strong>
+        </small>
       </footer>
+      <br />
     </div>
-  )
-}
-export default Footer
+  );
+};
+export default Footer;
