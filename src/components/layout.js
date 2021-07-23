@@ -23,7 +23,6 @@ const Layout = ({ pageTitle, children }) => {
   `);
   return (
     <main className={container}>
-     
         <div className={navFloat}>
           <ul className={navLinks}>
             <li className={navLinkItem}>
