@@ -23,7 +23,7 @@ const Layout = ({ pageTitle, children }) => {
   `);
   return (
     <main className={container}>
-      <div className={pageTop}>
+     
         <div className={navFloat}>
           <ul className={navLinks}>
             <li className={navLinkItem}>
@@ -56,10 +56,12 @@ const Layout = ({ pageTitle, children }) => {
         <title>
           {pageTitle} | {data.site.siteMetadata.title}
         </title>
+        <div className={pageTop}>
+
           <StaticImage
                   className={siteLogo}
                   alt="logo"
-                  src="../images/logo_3.png"
+                  src="../images/logo_1.png"
                 />
         {/* <p className={siteTitle}>{data.site.siteMetadata.title}</p> */}
       </div>

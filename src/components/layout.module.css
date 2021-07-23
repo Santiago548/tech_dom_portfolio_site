@@ -18,8 +18,8 @@ body {
 
 .site-logo {
   margin: auto;
-  height: 40%;
-  width: 40%;
+  height: 60%;
+  width: 60%;
 }
 
 .container {
@@ -41,8 +41,8 @@ body {
 }
 
 .page-top {
-  background-color: rebeccapurple;
-  border-bottom: double 6px black;
+  background-color: black;
+  border-bottom: double 6px rebeccapurple;
 }
 
 .heading {
@@ -91,18 +91,18 @@ hr {
   text-align: center;
 }
 
-.nav-float {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
 /* nav bar */
 .nav-links {
   background-color: rebeccapurple;
   display: flex;
   list-style: none;
-  padding-left: 10px;
+  padding: 10px;
+}
+
+.nav-float {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .nav-link-item {
@@ -113,6 +113,7 @@ hr {
   text-decoration: none;
   font-size: inherit;
   font-family: "Bit", monospace;
+  padding: 5px;
 }
 .nav-link-text:hover {
   text-align: center;
@@ -321,8 +322,11 @@ hr {
   border-radius: 20px;
   margin: auto;
   max-width: 1000px;
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
+  border-color: rebeccapurple;
+  border-width: 6px;
+  border-style: double;
 }
 
 .fieldset-social {
