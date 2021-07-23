@@ -62,6 +62,7 @@ body {
 
 .page-top {
   background-color: black;
+  border-top: double 6px rebeccapurple;
   border-bottom: double 6px rebeccapurple;
 }
 
@@ -107,6 +108,8 @@ hr {
   display: flex;
   list-style: none;
   padding: 10px;
+  border-top: double 6px black;
+  border-bottom: double 6px black;
 }
 
 .nav-float {
@@ -448,7 +451,7 @@ hr {
   .nav-links {
     text-align: center;
     padding: 2rem;
-    width: 100%;
+    width: 87%;
     display: table;
   }
 }
