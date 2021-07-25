@@ -15,7 +15,7 @@ import {
   fieldsetProject3,
   projectDescription,
   fieldsetProjectContainer,
-  pageTitle
+  pageTitle,
 } from "../components/layout.module.css";
 
 const ProjectPage = () => {
@@ -35,12 +35,12 @@ const ProjectPage = () => {
                 alt="npc logo"
                 src="../images/projects/npc_logo.png"
               />
-
               <p className={projectDescription}>
                 You can generate random NPCs on the fly with Health, Armor
                 Class, Alignment, Weapons, and Ability scores for Dungeons and
                 Dragons 5e. With the click of a button.
               </p>
+
               <fieldset className={projectNoFieldset}>
                 <Link
                   to="https://github.com/Santiago548/NPC_Generator"
@@ -56,6 +56,7 @@ const ProjectPage = () => {
                 </Link>
               </fieldset>
             </fieldset>
+
             {/* character manager links */}
             <fieldset className={fieldsetProject2}>
               <StaticImage
@@ -80,9 +81,7 @@ const ProjectPage = () => {
                   to="https://youtu.be/Q6jHC3XTUbE"
                   className={characterLink}
                 >
-                  <fieldset className={fieldsetLink}>
-                    DEMO
-                  </fieldset>
+                  <fieldset className={fieldsetLink}>DEMO</fieldset>
                 </Link>
               </fieldset>
             </fieldset>
@@ -138,13 +137,8 @@ const ProjectPage = () => {
                 >
                   <fieldset className={fieldsetLink}>GITHUB</fieldset>
                 </Link>
-                <Link
-                  to="https://youtu.be/B1TnMM5Q6YU"
-                  className={managerLink}
-                >
-                  <fieldset className={fieldsetLink}>
-                    DEMO
-                  </fieldset>
+                <Link to="https://youtu.be/B1TnMM5Q6YU" className={managerLink}>
+                  <fieldset className={fieldsetLink}>DEMO</fieldset>
                 </Link>
               </fieldset>
             </fieldset>
@@ -169,13 +163,8 @@ const ProjectPage = () => {
                   >
                     <fieldset className={fieldsetLink}>GITHUB</fieldset>
                   </Link>
-                  <Link
-                    to="https://youtu.be/VrWMx0g78r8"
-                    className={npcLink}
-                  >
-                    <fieldset className={fieldsetLink}>
-                      DEMO
-                    </fieldset>
+                  <Link to="https://youtu.be/VrWMx0g78r8" className={npcLink}>
+                    <fieldset className={fieldsetLink}>DEMO</fieldset>
                   </Link>
                 </fieldset>
               </fieldset>

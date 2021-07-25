@@ -31,6 +31,8 @@ body {
   margin: auto;
   height: 60%;
   width: 60%;
+  border: double;
+  border-color: black;
 }
 
 .profile-pic {
@@ -114,7 +116,7 @@ hr {
 }
 
 .nav-link-item {
-  padding-right: 2rem;
+  padding: 0.1rem;
 }
 .nav-link-text {
   color: rgb(255, 255, 255);
@@ -122,6 +124,8 @@ hr {
   font-size: inherit;
   font-family: "Bit", monospace;
   padding: 5px;
+  background-color: rebeccapurple;
+  border: none;
 }
 .nav-link-text:hover {
   text-align: center;
@@ -192,7 +196,7 @@ hr {
 
 .fieldset-project1 {
   max-width: 400px;
-  height: 400px;
+  height: 500px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-top: 4px;
@@ -205,7 +209,7 @@ hr {
 
 .fieldset-project2 {
   max-width: 400px;
-  height: 400px;
+  height: 500px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-top: 4px;
@@ -219,7 +223,7 @@ hr {
 .fieldset-project3 {
   margin: auto;
   max-width: 400px;
-  height: 400px;
+  height: 500px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-top: 4px;
@@ -232,8 +236,8 @@ hr {
 .project-image {
   border-radius: 20px;
   margin: auto;
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 80%;
+  max-height: 80%;
   background-color: #232c33;
   border-color: rebeccapurple;
   border-width: 6px;
@@ -437,12 +441,11 @@ hr {
   margin: auto;
 }
 
-/* project test */
 
 
 
 @media screen and (max-width: 960px) {
-
+  
   .nav-links {
     text-align: center;
     padding: 2rem;
@@ -453,3 +456,7 @@ hr {
   }
   
 }
+
+/* project test */
+
+

@@ -26,28 +26,58 @@ const Layout = ({ pageTitle, children }) => {
       <div className={navFloat}>
         <ul className={navLinks}>
           <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              HOME
+            <Link to="/">
+              <motion.button
+                className={navLinkText}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                HOME
+              </motion.button>
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="#about-page" className={navLinkText}>
-              ABOUT
+            <Link to="#about-page" >
+              <motion.button
+                className={navLinkText}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                ABOUT
+              </motion.button>
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="#projects-page" className={navLinkText}>
-              PROJECTS
+            <Link to="#projects-page" >
+              <motion.button
+                className={navLinkText}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                PROJECTS
+              </motion.button>
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="#skills-page" className={navLinkText}>
-              SKILLS
+            <Link to="#skills-page" >
+              <motion.button
+                className={navLinkText}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                SKILLS
+              </motion.button>
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="#contact-page" className={navLinkText}>
-              CONTACT
+            <Link to="#contact-page" >
+              <motion.button
+                className={navLinkText}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                CONTACT
+              </motion.button>
             </Link>
           </li>
         </ul>
@@ -58,15 +88,16 @@ const Layout = ({ pageTitle, children }) => {
       <div className={pageTop}>
         <motion.div
           animate={{
-            scale: [1, 2, 1,],
+            scale: [1, 0.5, 0.5, 1, 1],
+            borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
         >
-        <StaticImage
-          className={siteLogo}
-          alt="logo"
-          src="../images/logo_1.png"
-        />
-      </motion.div>
+          <StaticImage
+            className={siteLogo}
+            alt="logo"
+            src="../images/logo_1.png"
+          />
+        </motion.div>
         {/* <p className={siteTitle}>{data.site.siteMetadata.title}</p> */}
       </div>
       <br />
@@ -75,3 +106,5 @@ const Layout = ({ pageTitle, children }) => {
   );
 };
 export default Layout;
+
+
