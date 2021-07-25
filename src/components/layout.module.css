@@ -370,6 +370,7 @@ hr {
 }
 
 .skill-description {
+  border: none;
   padding-top: 20px;
   padding: 20px;
   margin: auto;
@@ -398,7 +399,6 @@ hr {
   background-color: #2b343b;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin-top: 4px;
   border-bottom: double 6px rebeccapurple;
 }
 
@@ -467,7 +467,6 @@ hr {
     background-color: #2b343b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-top: 4px;
     border-bottom: double 6px rebeccapurple;
   }
   
@@ -481,4 +480,29 @@ hr {
     border-width: 6px;
     border-style: double;
   }
+
+  .skill-image {
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-color: rebeccapurple;
+    border-width: 3px;
+    border-style: double;
+  }
+
+  .social-link {
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 1000px;
+    width: 125px;
+    height: 125px;
+    border-color: rebeccapurple;
+    border-width: 6px;
+    border-style: double;
+  }
+  
 }
