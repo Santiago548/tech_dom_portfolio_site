@@ -444,5 +444,7 @@ hr {
     padding: 2rem;
     width: 85%;
     display: table;
+    margin: auto;
+    text-align: center;
   }
 }

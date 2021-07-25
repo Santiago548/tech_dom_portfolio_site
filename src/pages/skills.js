@@ -38,12 +38,12 @@ const SkillsPage = () => {
                 />
                 <br />
 
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   Ruby was my first coding language because it is simple,
                   complete, extensible, and portable. In learning Ruby, I
                   developed an understanding of how to learn coding and
                   programming through its Object-orientation capabilities.
-                </p>
+                </fieldset>
               </fieldset>
 
               <fieldset className={fieldsetSkill2}>
@@ -56,13 +56,13 @@ const SkillsPage = () => {
                 />
                 <br />
 
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   Using Rails I can easily build and deploy fully functioning
                   web applications. It offers a MVC framework, which includes
                   default structures, a web service, and web pages. Using web
                   standards for data transfer, As well as HTML, CSS, and
                   JavaScript for user interaction.
-                </p>
+                </fieldset>
               </fieldset>
               <br />
             </fieldset>
@@ -78,13 +78,13 @@ const SkillsPage = () => {
                   src="../images/skills/js_logo.png"
                 />
                 <br />
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   is a scripting language that enables me to create and control
                   dynamically updating content, control multimedia, animate
                   images, and pretty much everything else. (Okay, not
                   everything, but it is amazing what you can achieve with a few
                   lines of JavaScript code.)
-                </p>
+                </fieldset>
                 <br />
               </fieldset>
 
@@ -96,12 +96,12 @@ const SkillsPage = () => {
                   alt="Sinatra lgoo"
                   src="../images/skills/sinatra_logo.png"
                 />
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   Sinatra is a Domain Specific Language implemented in Ruby
                   that's used for writing web applications. Sinatra is
                   Rack-based, and works with Rails. It's used by companies such
                   as Apple, BBC, GitHub, LinkedIn, and more.
-                </p>
+                </fieldset>
               </fieldset>
             </fieldset>
           </fieldset>
@@ -118,12 +118,12 @@ const SkillsPage = () => {
                   src="../images/skills/html_logo.png"
                 />
                 <br />
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   is the markup language that we use to structure and give
                   meaning to our web content, for example defining paragraphs,
                   headings, and data tables, or embedding images and videos in
                   the page.
-                </p>
+                </fieldset>
               </fieldset>
 
               <fieldset className={fieldsetSkill2}>
@@ -135,12 +135,12 @@ const SkillsPage = () => {
                   src="../images/skills/css_logo.png"
                 />
                 <br />
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   is a language of style rules that we use to apply styling to
                   HTML content, I fully customize my applications and web pages
                   using CSS to make the UI look and operate for the best
                   user-end experience.
-                </p>
+                </fieldset>
               </fieldset>
               <br />
             </fieldset>
@@ -170,12 +170,12 @@ const SkillsPage = () => {
                   src="../images/skills/redux_logo.png"
                 />
                 <br />
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   is a pattern and library for managing and updating application
                   state. It serves as a centralized store for state that needs
                   to be used across your entire application, with rules ensuring
                   that the state can only be updated in a predictable fashion.
-                </p>
+                </fieldset>
               </fieldset>
               <br />
             </fieldset>
