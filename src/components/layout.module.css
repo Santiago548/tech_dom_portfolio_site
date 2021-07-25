@@ -447,4 +447,38 @@ hr {
     margin: auto;
     text-align: center;
   }
+
+  .fieldset-skill1 {
+    max-width: 400px;
+    float: left;
+    border-style: none;
+    text-align: center;
+    background-color: #2b343b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: double 6px rebeccapurple;
+  }
+  
+  .fieldset-skill2 {
+    max-width: 400px;
+    float: right;
+    border-style: none;
+    text-align: center;
+    background-color: #2b343b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 4px;
+    border-bottom: double 6px rebeccapurple;
+  }
+  
+  .fieldset-skill3 {
+    max-width: 100%;
+    border-style: none;
+    justify-content: center;
+    text-align: center;
+    background-color: #2b343b;
+    border-color: rebeccapurple;
+    border-width: 6px;
+    border-style: double;
+  }
 }
