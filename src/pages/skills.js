@@ -3,6 +3,7 @@ import * as React from "react";
 // import Footer from "../components/footer";
 // import ContactPage from "./contact";
 import { StaticImage } from "gatsby-plugin-image";
+import Fade from 'react-reveal/Fade'
 import {
   skillTitle,
   skillDescription,
@@ -26,7 +27,8 @@ const SkillsPage = () => {
         <div className={skillContainer}>
           {/* row 1 */}
           <h1 className={skillTitle}>SKILLS</h1>
-          <fieldset className={fieldsetProgrammingContainer}>
+          
+          <Fade left>
             <fieldset className={skillFieldsetContainer}>
               <fieldset className={fieldsetSkill1}>
                 <h1 className={skillTitle}>RUBY</h1>
@@ -35,7 +37,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="Ruby logo"
                   src="../images/skills/ruby_logo.png"
-                />
+                  />
                 <br />
 
                 <fieldset className={skillDescription}>
@@ -53,7 +55,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="Rails logo"
                   src="../images/skills/rails_logo.png"
-                />
+                  />
                 <br />
 
                 <fieldset className={skillDescription}>
@@ -64,11 +66,15 @@ const SkillsPage = () => {
                   JavaScript for user interaction.
                 </fieldset>
               </fieldset>
+            
               <br />
             </fieldset>
             <br />
+                  </Fade>
             {/* row 2 */}
+            <Fade right>
             <fieldset className={skillFieldsetContainer}>
+            
               <fieldset className={fieldsetSkill1}>
                 <h1 className={skillTitle}>JAVASCRIPT</h1>
                 <br />
@@ -76,7 +82,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="JavaScript Logo"
                   src="../images/skills/js_logo.png"
-                />
+                  />
                 <br />
                 <fieldset className={skillDescription}>
                   is a scripting language that enables me to create and control
@@ -95,7 +101,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="Sinatra lgoo"
                   src="../images/skills/sinatra_logo.png"
-                />
+                  />
                 <fieldset className={skillDescription}>
                   Sinatra is a Domain Specific Language implemented in Ruby
                   that's used for writing web applications. Sinatra is
@@ -104,10 +110,11 @@ const SkillsPage = () => {
                 </fieldset>
               </fieldset>
             </fieldset>
-          </fieldset>
+                  </Fade>
+          
           <br />
           {/* row 3 */}
-          <fieldset className={fieldsetWebContainer}>
+          <Fade left>
             <fieldset className={skillFieldsetContainer}>
               <fieldset className={fieldsetSkill1}>
                 <h1 className={skillTitle}>HTML</h1>
@@ -116,7 +123,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="html logo"
                   src="../images/skills/html_logo.png"
-                />
+                  />
                 <br />
                 <fieldset className={skillDescription}>
                   is the markup language that we use to structure and give
@@ -133,7 +140,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="css logo"
                   src="../images/skills/css_logo.png"
-                />
+                  />
                 <br />
                 <fieldset className={skillDescription}>
                   is a language of style rules that we use to apply styling to
@@ -145,7 +152,9 @@ const SkillsPage = () => {
               <br />
             </fieldset>
             <br />
+                  </Fade>
             {/* row 4 */}
+            <Fade right>
             <fieldset className={skillFieldsetContainer}>
               <fieldset className={fieldsetSkill1}>
                 <h1 className={skillTitle}>REACT</h1>
@@ -153,7 +162,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="React_logo"
                   src="../images/skills/react_logo.png"
-                />
+                  />
                 <br />
                 <fieldset className={skillDescription}>
                   React is a declarative, efficient, and flexible JavaScript
@@ -168,7 +177,7 @@ const SkillsPage = () => {
                   className={skillImage}
                   alt="Redux_logo"
                   src="../images/skills/redux_logo.png"
-                />
+                  />
                 <br />
                 <fieldset className={skillDescription}>
                   is a pattern and library for managing and updating application
@@ -179,7 +188,8 @@ const SkillsPage = () => {
               </fieldset>
               <br />
             </fieldset>
-          </fieldset>
+          
+                  </Fade>
         </div>
       </div>
     </a>

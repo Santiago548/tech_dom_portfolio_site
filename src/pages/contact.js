@@ -1,11 +1,13 @@
 import * as React from "react";
+import { motion } from "framer-motion";
 import { StaticImage } from "gatsby-plugin-image";
 import {
   socialContainer,
   socialLink,
   fieldsetSocial,
   container,
-  pageTitle
+  pageTitle,
+  motionButton
 } from "../components/layout.module.css";
 
 const ContactPage = () => {
@@ -19,21 +21,33 @@ const ContactPage = () => {
             href="https://www.linkedin.com/in/dominic-barajas/"
             target="_blank"
           >
-            <fieldset className={fieldsetSocial}>
-              <StaticImage
-                className={socialLink}
-                alt="linkedin"
-                src="../images/social/linkedin_logo.png"
-              />
-            </fieldset>
+              <fieldset className={fieldsetSocial}>
+            <motion.button
+            className={motionButton}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+                <StaticImage
+                  className={socialLink}
+                  alt="linkedin"
+                  src="../images/social/linkedin_logo.png"
+                />
+            </motion.button>
+              </fieldset>
           </a>
           <a href="mailto:dominicbarajas548@gmail.com" target="_blank">
             <fieldset className={fieldsetSocial}>
+            <motion.button
+            className={motionButton}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <StaticImage
                 className={socialLink}
                 alt="gmail"
                 src="../images/social/gmail_logo.png"
               />
+              </motion.button>
             </fieldset>
           </a>
           <a
@@ -41,39 +55,63 @@ const ContactPage = () => {
             target="_blank"
           >
             <fieldset className={fieldsetSocial}>
+            <motion.button
+            className={motionButton}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <StaticImage
                 className={socialLink}
                 alt="instagram"
                 src="../images/social/instagram_logo.png"
               />
+              </motion.button>
             </fieldset>
           </a>
           <br></br>
           <a href="https://twitter.com/TechDom2" target="_blank">
             <fieldset className={fieldsetSocial}>
+            <motion.button
+            className={motionButton}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <StaticImage
                 className={socialLink}
                 alt="twitter"
                 src="../images/social/twitter_logo.png"
               />
+              </motion.button>
             </fieldset>
           </a>
           <a href="https://dev.to/santiago548" target="_blank">
             <fieldset className={fieldsetSocial}>
+            <motion.button
+            className={motionButton}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <StaticImage
                 className={socialLink}
                 alt="dev"
                 src="../images/social/dev_logo.png"
               />
+            </motion.button>
             </fieldset>
           </a>
           <a href="https://github.com/Santiago548" target="_blank">
             <fieldset className={fieldsetSocial}>
+            <motion.button
+            className={motionButton}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <StaticImage
                 className={socialLink}
                 alt="GitHub"
                 src="../images/social/github_logo.png"
               />
+              </motion.button>
             </fieldset>
           </a>
           {/* <a href="https://www.twitch.tv/santiago5480" target="_blank">
