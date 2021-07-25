@@ -11,15 +11,6 @@
   font-weight: bold;
 }
 
-.example::-webkit-scrollbar {
-  display: none;
-}
-
-.example {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
 body {
   background-color: #232c33;
 }

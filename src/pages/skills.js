@@ -155,12 +155,12 @@ const SkillsPage = () => {
                   src="../images/skills/react_logo.png"
                 />
                 <br />
-                <p className={skillDescription}>
+                <fieldset className={skillDescription}>
                   React is a declarative, efficient, and flexible JavaScript
                   library developed by FaceBook. I utilize it for building user
                   interfaces. It lets me compose complex UIs from small and
                   isolated pieces of code called “components”.
-                </p>
+                </fieldset>
               </fieldset>
               <fieldset className={fieldsetSkill2}>
                 <h1 className={skillTitle}>REDUX</h1>
