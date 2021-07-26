@@ -1,13 +1,8 @@
 import * as React from "react";
 import { Link } from "gatsby";
-
 import { StaticImage } from "gatsby-plugin-image";
 import {
   projectContainer,
-  npcLink,
-  characterLink,
-  storyLink,
-  managerLink,
   projectNoFieldset,
   fieldsetLink,
   projectImage,
@@ -17,7 +12,10 @@ import {
   projectDescription,
   fieldsetProjectContainer,
   pageTitle,
+  link,
+  linkText,
 } from "../components/layout.module.css";
+import { motion } from "framer-motion";
 
 const ProjectPage = () => {
   return (
@@ -45,15 +43,31 @@ const ProjectPage = () => {
               <fieldset className={projectNoFieldset}>
                 <Link
                   to="https://github.com/Santiago548/NPC_Generator"
-                  className={npcLink}
+                  className={link}
                 >
-                  <fieldset className={fieldsetLink}>GITHUB</fieldset>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      GITHUB
+                    </motion.button>
+                  </fieldset>
                 </Link>
                 <Link
                   to="https://www.youtube.com/watch?v=QNPN1UOfpOg&t=5s"
-                  className={npcLink}
+                  className={link}
                 >
-                  <fieldset className={fieldsetLink}>DEMO</fieldset>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      DEMO
+                    </motion.button>
+                  </fieldset>
                 </Link>
               </fieldset>
             </fieldset>
@@ -74,15 +88,28 @@ const ProjectPage = () => {
               <fieldset className={projectNoFieldset}>
                 <Link
                   href="https://github.com/Santiago548/DND_character_manager"
-                  className={characterLink}
+                  className={link}
                 >
-                  <fieldset className={fieldsetLink}>GITHUB</fieldset>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      GITHUB
+                    </motion.button>
+                  </fieldset>
                 </Link>
-                <Link
-                  to="https://youtu.be/Q6jHC3XTUbE"
-                  className={characterLink}
-                >
-                  <fieldset className={fieldsetLink}>DEMO</fieldset>
+                <Link to="https://youtu.be/Q6jHC3XTUbE" className={link}>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      DEMO
+                    </motion.button>
+                  </fieldset>
                 </Link>
               </fieldset>
             </fieldset>
@@ -106,15 +133,31 @@ const ProjectPage = () => {
               <fieldset className={projectNoFieldset}>
                 <Link
                   to="https://github.com/Santiago548/Character_APP"
-                  className={storyLink}
+                  className={link}
                 >
-                  <fieldset className={fieldsetLink}>GITHUB</fieldset>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      GITHUB
+                    </motion.button>
+                  </fieldset>
                 </Link>
                 <Link
                   to="https://www.youtube.com/watch?v=u0Qktu4uPR8&t=5s"
-                  className={storyLink}
+                  className={link}
                 >
-                  <fieldset className={fieldsetLink}>DEMO</fieldset>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      DEMO
+                    </motion.button>
+                  </fieldset>
                 </Link>
               </fieldset>
             </fieldset>
@@ -134,12 +177,28 @@ const ProjectPage = () => {
               <fieldset className={projectNoFieldset}>
                 <Link
                   to="https://github.com/Santiago548/gm_campaign_app"
-                  className={managerLink}
+                  className={link}
                 >
-                  <fieldset className={fieldsetLink}>GITHUB</fieldset>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      GITHUB
+                    </motion.button>
+                  </fieldset>
                 </Link>
-                <Link to="https://youtu.be/B1TnMM5Q6YU" className={managerLink}>
-                  <fieldset className={fieldsetLink}>DEMO</fieldset>
+                <Link to="https://youtu.be/B1TnMM5Q6YU" className={link}>
+                  <fieldset className={fieldsetLink}>
+                    <motion.button
+                      className={linkText}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      DEMO
+                    </motion.button>
+                  </fieldset>
                 </Link>
               </fieldset>
             </fieldset>
@@ -160,12 +219,28 @@ const ProjectPage = () => {
                 <fieldset className={projectNoFieldset}>
                   <Link
                     to="https://github.com/Santiago548/DD5e_Adventure_Hanbook"
-                    className={npcLink}
+                    className={link}
                   >
-                    <fieldset className={fieldsetLink}>GITHUB</fieldset>
+                    <fieldset className={fieldsetLink}>
+                      <motion.button
+                        className={linkText}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        GITHUB
+                      </motion.button>
+                    </fieldset>
                   </Link>
-                  <Link to="https://youtu.be/VrWMx0g78r8" className={npcLink}>
-                    <fieldset className={fieldsetLink}>DEMO</fieldset>
+                  <Link to="https://youtu.be/VrWMx0g78r8" className={link}>
+                    <fieldset className={fieldsetLink}>
+                      <motion.button
+                        className={linkText}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        DEMO
+                      </motion.button>
+                    </fieldset>
                   </Link>
                 </fieldset>
               </fieldset>

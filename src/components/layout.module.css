@@ -206,15 +206,7 @@ hr {
   background-color: #2b343b;
   border-bottom: double 6px rebeccapurple;
 }
-.flip-card {
-  --flip-card-height: 100px;
-  --flip-card-transition-duration: 800ms;
-  --flip-card-border-radius: 4px;
-  --flip-card-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  --flip-card-background-color-front: white;
-  --flip-card-background-color-back: white;
-  --flip-card-transition-timing-function: ease;
-}
+
 
 .fieldset-project2 {
   max-width: 400px;
@@ -270,65 +262,39 @@ hr {
   border-color: rebeccapurple;
   border-width: 3px;
   border-style: ridge;
-  text-size-adjust: 30px;
   font-family: "Bit", monospace;
+  background-color: rebeccapurple;
+  border: none;
+  
 }
 
-.npc-link {
+.link-text-project {
+  font-family: "Bit", monospace;
+  background-color: rebeccapurple;
+  border: none;
+  color: #fff;
+}
+
+
+.link {
   text-align: center;
   color: #fff;
   text-decoration: none;
 }
-.npc-link:hover {
+.link-text {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: inherit;
+  font-family: "Bit", monospace;
+  padding: 5px;
+  background-color: rebeccapurple;
+  border: none;
+}
+.link-text:hover {
   text-align: center;
   color: #0091ff;
-}
-.npc-link:active {
-  text-align: center;
-  color: #b87333;
 }
 
-.character-link {
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-}
-.character-link:hover {
-  text-align: center;
-  color: #0091ff;
-}
-.character-link:active {
-  text-align: center;
-  color: #b87333;
-}
-
-.story-link {
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-}
-.story-link:hover {
-  text-align: center;
-  color: #0091ff;
-}
-.story-link:active {
-  text-align: center;
-  color: #b87333;
-}
-
-.manager-link {
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-}
-.manager-link:hover {
-  text-align: center;
-  color: #0091ff;
-}
-.manager-link:active {
-  text-align: center;
-  color: #b87333;
-}
 
 /* SOCIAL CONTACT */
 .social-container {
