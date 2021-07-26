@@ -206,6 +206,15 @@ hr {
   background-color: #2b343b;
   border-bottom: double 6px rebeccapurple;
 }
+.flip-card {
+  --flip-card-height: 100px;
+  --flip-card-transition-duration: 800ms;
+  --flip-card-border-radius: 4px;
+  --flip-card-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  --flip-card-background-color-front: white;
+  --flip-card-background-color-back: white;
+  --flip-card-transition-timing-function: ease;
+}
 
 .fieldset-project2 {
   max-width: 400px;
