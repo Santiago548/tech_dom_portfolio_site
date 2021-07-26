@@ -13,7 +13,12 @@ import {
   fieldsetProjectContainer,
   pageTitle,
   link,
+  inputProject,
   linkText,
+  flipCard,
+  flipCardInner,
+  flipCardFront,
+  flipCardBack,
 } from "../components/layout.module.css";
 import { motion } from "framer-motion";
 
@@ -39,7 +44,6 @@ const ProjectPage = () => {
                 Class, Alignment, Weapons, and Ability scores for Dungeons and
                 Dragons 5e. With the click of a button.
               </p>
-
               <fieldset className={projectNoFieldset}>
                 <Link
                   to="https://github.com/Santiago548/NPC_Generator"
