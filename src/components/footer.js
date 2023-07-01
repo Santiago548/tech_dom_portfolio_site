@@ -12,7 +12,7 @@ const Footer = () => {
       <footer className={footer}>
         <strong>&copy;</strong>
         <small>
-          <strong className={footerText}> 2021 Dominic Barajas</strong>
+          <strong className={footerText}> 2023 Dominic Barajas</strong>
         </small>
       </footer>
       <br />
